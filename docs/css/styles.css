@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0 auto;
+padding: 1rem;
+max-width: 800px;
+min-height: 100vh;
+border: 8px solid #70543e;
+text-align: center;
+font-family: "Press Start 2P", system-ui, sans-serif;
+background-color: #5c7d35;
+background-size: cover;
+color: #ffffff;
+}
+
+a {
+color: #3c8dad;
+text-decoration: none;
+transition: all 0.2s linear;
+}
+
+a:hover {
+color: #ffcc00;
+text-shadow: 2px 2px 0px #000000;
+}
+
+hr {
+margin: 2rem auto;
+width: 80%;
+border: 2px dashed #7d7d7d;
+}
+
+img {
+display: block;
+margin: 0 auto;
+border: 4px solid #1873a5;
+border-radius: 0;
+}
+
+p,
+li {
+text-align: left;
+font-size: 1rem;
+}
+
+.menu {
+width: 100%;
+max-width: 480px;
+margin: 0 auto;
+border: 4px solid #70543e;
+background-color: #3c8dad;
+}
+
+.menu ul {
+margin: 0;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+align-content: center;
+background-color: #5c7d35;
+}
+
+.menu ul li {
+list-style: none;
+color: #ffffff;
+font-weight: bold;
+}
