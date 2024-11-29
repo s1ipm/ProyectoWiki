@@ -1,69 +1,117 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body {
-margin: 0 auto;
-padding: 1rem;
-max-width: 800px;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 min-height: 100vh;
-border: 8px solid #70543e;
+border: 8px solid #2E5133;
 text-align: center;
-font-family: "Press Start 2P", system-ui, sans-serif;
-background-color: #5c7d35;
+font-family: 'Minecraft', sans-serif;
+background-color: #4A7C59;
+background-image: url('https://c.wallhere.com/photos/26/96/Minecraft_dirt_grass_diamonds-171653.png!d');
 background-size: cover;
-color: #ffffff;
+background-repeat: no-repeat;
+background-position: center;
+color: #FFFFFF;
 }
 
 a {
-color: #3c8dad;
+color: #6e3d0f;
 text-decoration: none;
-transition: all 0.2s linear;
+transition: all 0.3s linear;
 }
 
 a:hover {
-color: #ffcc00;
+color: #c26416;
 text-shadow: 2px 2px 0px #000000;
 }
 
 hr {
 margin: 2rem auto;
 width: 80%;
-border: 2px dashed #7d7d7d;
+border: 2px dashed #B87333;
 }
 
 img {
 display: block;
-margin: 0 auto;
-border: 4px solid #1873a5;
-border-radius: 0;
+margin: 1rem auto;
+border: 4px solid #2E5133;
+border-radius: 4px;
+max-width: 100%;
 }
 
-p,
-li {
-text-align: left;
-font-size: 1rem;
-}
 
-.menu {
-width: 100%;
-max-width: 480px;
-margin: 0 auto;
-border: 4px solid #70543e;
-background-color: #3c8dad;
-}
+  p,
+  li {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .menu {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 4px solid #2E5133;
+    background-color: #3C8D3E;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .menu ul {
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #6AAA64;
+  }
+  
+  .menu ul li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #3C8D3E;
+    border: 2px solid #2E5133;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .menu ul li:hover {
+    background-color: #FFCC00;
+    transform: scale(1.05);
+  }
+  
+  
+  @media (max-width: 768px) {
+    body {
+      padding: 0.5rem;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+    }
+  
+    .menu ul li {
+      width: 100%;
+      text-align: center;
+      padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+    }
+  }
+  
 
-.menu ul {
-margin: 0;
-padding: 1rem;
-display: flex;
-justify-content: space-between;
-align-content: center;
-background-color: #5c7d35;
-}
-
-.menu ul li {
-list-style: none;
-color: #ffffff;
-font-weight: bold;
-}
+  @font-face {
+    font-family: "Minecraftia";
+    src: url('https://fonts.cdnfonts.com/css/minecraft-4'); 
+  }
+  
+  
