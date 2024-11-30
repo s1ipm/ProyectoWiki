@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
-  <title>Wiki de Minecraft</title>
-  <meta name="description" content="Explora todo sobre Minecraft en nuestra wiki.">
-  <link rel="icon" href="https://i.seadn.io/gae/sRm_2Iw5CKm95DT3uxFoAJcEKEbkFY-Bca_DIT4_yjlpJwyWcFaHdOIIURgl6p7i2QXWkGcQAcC8eOrrp4DXMby4tlgp24tyM1I8aw?auto=format&dpr=1&w=1000">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description | default('Explora todo sobre Minecraft.') }}">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
   {% include "header.njk" %}
-  <main>
-    {{ content | safe }}
-  </main>
+
+  <div class="container">
+    <div class="content-wrapper">
+      <main class="main-content">
+        <article class="post-content">
+          <h1>{{ title }}</h1>
+          <p><strong>{{ description }}</strong></p>
+          <div>{{ content | safe }}</div>
+      </main>
+
   {% include "footer.njk" %}
   <script src="/js/main.js" type="module"></script>
 </body>

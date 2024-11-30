@@ -1,23 +1,48 @@
 ---
 layout: layout-page.njk
-title: Pagina de inicio
-description: Meta descripción de la página de inicio
+title: Página de inicio
+description: Explora todo sobre el vasto universo de Minecraft.
 ---
 
 <h1>{{ title }}</h1>
 <p>
-  ¡Bienvenido a la <b>Wiki de Minecraft</b>! Aquí encontrarás información detallada sobre el vasto universo de Minecraft: desde biomas y criaturas, hasta encantamientos, redstone y dimensiones secretas. Explora, aprende y mejora tus aventuras en el juego.
+  ¡Bienvenido a la <b>Wiki de Minecraft</b>! Aquí encontrarás información detallada sobre el vasto universo de Minecraft: desde biomas y criaturas, hasta encantamientos, redstone y dimensiones secretas. ¡Explora, aprende y mejora tus aventuras en el juego!
 </p>
-<div>
-  <img src="/img/eleventy.svg" alt="Eleventy">
-  <h2>+</h2>
-  <img src="/img/github.svg" alt="GitHub">
-</div>
+
+<section class="minecraft-info">
+  <h2>¿Qué es Minecraft?</h2>
+  <p>
+    <i>Minecraft</i> es un juego de aventuras y construcción donde los jugadores pueden explorar un mundo generado de manera procedimental, recolectar recursos, construir estructuras y enfrentarse a una variedad de criaturas. Desde su lanzamiento en 2011, ha cautivado a millones de jugadores alrededor del mundo. El juego ofrece diversos modos, como el modo supervivencia, creativo, aventura y espectador.
+  </p>
+  
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/56/Minecraft_Logo.svg/revision/latest?cb=20211101084116" alt="Logo de Minecraft" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <img src="https://www.minecraft.net/content/dam/minecraft/brand/minecraft-logo.png" alt="Minecraft" class="img-fluid">
+    </div>
+  </div>
+</section>
+
 <hr>
+
+<section class="links-section">
+  <h2>Enlaces Útiles</h2>
+  <p>Para sacarle el máximo provecho a tu experiencia en Minecraft, te recomendamos revisar los siguientes recursos:</p>
+  <ul>
+    <li><a href="https://www.minecraft.net/es-es" target="_blank">Sitio Oficial de Minecraft</a></li>
+    <li><a href="https://minecraft.fandom.com/es/wiki/Minecraft_Wiki" target="_blank">Minecraft Wiki</a></li>
+    <li><a href="https://www.youtube.com/watch?v=9W4n-zKGux0" target="_blank">Tutoriales y Guías de Minecraft en YouTube</a></li>
+    <li><a href="https://minecraft.gamepedia.com/" target="_blank">Minecraft Gamepedia</a></li>
+    <li><a href="https://www.planetminecraft.com/" target="_blank">Planet Minecraft (Recursos y Servidores)</a></li>
+  </ul>
+</section>
+
+<hr>
+
 <h2>{{ site.message }}</h2>
-<p>
-  Para sacarle mayor provecho a este <i>starter project</i>, te sugiero revisar los siguientes enlaces:
-</p>
+<p>Te sugerimos revisar los siguientes enlaces para obtener más información:</p>
 <ul>
   {% for link in site.linksDoc %}
     <li>
@@ -25,3 +50,9 @@ description: Meta descripción de la página de inicio
     </li>
   {% endfor %}
 </ul>
+
+<div class="image-section">
+  <img src="/img/eleventy.svg" alt="Eleventy" class="img-fluid">
+  <h2>+</h2>
+  <img src="/img/github.svg" alt="GitHub" class="img-fluid">
+</div>

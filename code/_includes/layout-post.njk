@@ -3,41 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wiki de Minecraft</title>
-  <meta name="description" content="Todo sobre Minecraft y lo demás a descubrir.">
-  <link rel="icon" href="https://i.seadn.io/gae/sRm_2Iw5CKm95DT3uxFoAJcEKEbkFY-Bca_DIT4_yjlpJwyWcFaHdOIIURgl6p7i2QXWkGcQAcC8eOrrp4DXMby4tlgp24tyM1I8aw?auto=format&dpr=1&w=1000">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description | default('Explora todo sobre Minecraft.') }}">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
   {% include "header.njk" %}
-  <main>
-    {{ content | safe }}
-  </main>
-  <hr>
-  <aside>
-    <h2>Categorías</h2>
-    <h3>Libros</h3>
-    <ul>
-      {% for article in collections.libros %}
-        <li>
-          <a href="{{article.url}}">
-            {{ article.data.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-    <h3>Películas</h3>
-    <ul>
-      {% for article in collections.peliculas %}
-        <li>
-          <a href="{{article.url}}">
-            {{ article.data.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
+
+  <div class="container">
+    <div class="content-wrapper">
+      <main class="main-content">
+        <article class="post-content">
+          <h1>{{ title }}</h1>
+          <p><strong>{{ description }}</strong></p>
+          <div>{{ content | safe }}</div>
+      </main>
+
+
+      <aside class="sidebar">
+        <div class="categories">
+          <h2>Categorías</h2>
+          <ul>
+            <li><a href="/acerca">Acerca de</a></li>
+            <li><a href="/Alquimia">Alquimia</a></li>
+            <li><a href="/Biomas">Biomas</a></li>
+            <li><a href="/Criaturas">Criaturas</a></li>
+            <li><a href="/Comercio">Comercio</a></li>
+            <li><a href="/Creativo">Modo Creativo</a></li>
+            <li><a href="/Criaturas">Criaturas</a></li>
+            <li><a href="/DimensionEND">DimensionEND</a></li>
+            <li><a href="/DimensionNETHER">DimensionNETHER</a></li>
+            
+            <li><a href="/Redstone">Redstone</a></li>
+            <li><a href="/supervivencia">Supervivencia</a></li>
+
+
+
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+
   {% include "footer.njk" %}
+
   <script src="/js/main.js" type="module"></script>
 </body>
 </html>
