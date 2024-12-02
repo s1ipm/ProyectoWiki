@@ -14,12 +14,31 @@
 
   <header>
   <h1>Wiki de <i>Minecraft</i></h1>
-  <nav class="menu">
-  <ul>
-    <li><a href="/">Inicio</a></li>
-    <li><a href="/acerca">Acerca</a></li>
-    <li><a href="/articulos">Articulos</a></li>
-  </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/acerca">Acerca</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/articulos">Artículos</a>
+        </li>
+      </ul>
+      <!-- Buscador -->
+      <form class="d-flex" id="searchForm">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
 </nav>
   <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Logotipo de Minecraft">
 </header>
@@ -28,7 +47,6 @@
     <div class="content-wrapper">
       <main class="main-content">
         <article class="post-content">
-          <h1>Página de Blog</h1>
           <p><strong></strong></p>
           <div>
 <h1>Página de Blog</h1>
