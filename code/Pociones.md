@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Pociones"
+description: "Conoce sobre las pociones."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Pociones
 
 Las pociones en Minecraf son brebajes mágicos que le otorgan efectos temporales al jugador o a otras entidades. Los efectos pueden ser positivos (como curación o aumento de velocidad) o negativos (como veneno o debilidad) y son diferentes en función de la poción en cuestión. Las pociones se elaboran con la alquimia usando ingredientes concretos y éstas son modificables o pueden mejorar de diferentes maneras.

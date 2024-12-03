@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Minería"
+description: "Conoce sobre la minería en Minecraft."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Minería
 
 La actividad minera constituye uno de los ejes básicos del videojuego ***Minecraft***, pues es la principal vía para hacerse con los recursos exigibles para poder avanzar en el videojuego, no sólo bastando con excavar para hallar ***materiales***, sino también con un conjunto de estrategias para realizar exploraciones de la profundidad de la generación del mundo y maximizar las ventajas en la obtención de recursos. 

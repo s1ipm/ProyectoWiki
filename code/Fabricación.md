@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Fabricación"
+description: "Conoce sobre las formas de fabricación."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Fabricación
 
 ***La mesa de crafteo*** y el ***horno*** son dos de los bloques más importantes para el progreso del jugador, y ambos permiten transformar materiales no procesados en objetos y recursos útiles, ayudando así a sobrevivir, explorar y construir en el mundo del juego. En este artículo, iremos viendo la fabricación de ambos, sus características, qué se puede hacer con ambos, qué materiales se necesitan y los tipos de hornos. 

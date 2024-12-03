@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Alquimia"
+description: "Conoce sobre varias pociones dentro de Minecraft."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Alquimia
 
 La alquimia en ***Minecraft*** es un sistema asombroso, mediante el cual se pueden elaborar pociones que otorgan efectos mágicos a partir de ciertos ingredientes. El sistema de alquimia en ***Minecraft*** consiste únicamente en el uso de un objeto, Soporte para pociones ***(Brewing Stand)***, un objeto cuya función es, junto a los ingredientes especiales, transformar frascos de agua en pociones con diferentes efectos, desde la curación hasta la **invisibilidad**. 

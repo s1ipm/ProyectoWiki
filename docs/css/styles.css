@@ -3,35 +3,43 @@ box-sizing: border-box;
 }
 
 body {
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-min-height: 100vh;
-border: 8px solid #2E5133;
-text-align: center;
-font-family: 'Pixelify Sans', sans-serif;
-background-color: #4A7C59;
-background-image: url('https://wallpaperaccess.com/full/171177.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: cover;
-background-attachment: fixed;
-color: #FFFFFF;
-text-shadow: 2px 2px 4px #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 8px solid #2E5133;
+  text-align: center;
+  font-family: "VT323";
+  font-weight: 100;
+  font-size: 15px;
+  font-style: normal;
+  background-color: #4A7C59;
+  background-image: url('https://wallpaperaccess.com/full/171177.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #000000;
+
 }
 
 .links-section ul {
   list-style-position: inside;
   margin: 0;
   padding: 0;
+  text-align: center;
+  ;
 }
 
 .links-section ul li {
-  margin: 5px 0;
+  margin: 0.3rem 0;
   line-height: 1.5;
+  text-align: center;
+  ;
 }
 
 .links-section ul li a {
@@ -46,6 +54,31 @@ text-shadow: 2px 2px 4px #000000;
   text-shadow: 1px 1px 4px #000000;
 }
 
+.articulos-list ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.articulos-list ul li {
+  margin: 0.3rem 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.articulos-list ul li a {
+  text-decoration: none;
+  color: #FFCC00;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.articulos-list ul li a:hover {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 4px #000000;
+}
+
 a {
 color: #e6d815;
 text-decoration: none;
@@ -54,7 +87,8 @@ transition: all 0.3s linear;
 
 a:hover {
 color: #c26416;
-text-shadow: 2px 2px 0px #000000;
+text-shadow: 2px 2px 0px #000000
+;
 }
 
 hr {
@@ -71,10 +105,10 @@ border-radius: 4px;
 max-width: 100%;
 }
 
-
   p,
   li {
     text-align: center;
+  font-style: normal;
     font-size: 1rem;
   }
   
@@ -117,26 +151,24 @@ max-width: 100%;
   
   
   @media (max-width: 768px) {
-    body {
+    .navbar-toggler {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .form-control {
+      font-size: 0.9rem;
       padding: 0.5rem;
     }
   
-    .menu ul {
-      flex-direction: column;
-    }
-  
-    .menu ul li {
-      width: 100%;
-      text-align: center;
-      padding: 0.3rem 0.7rem;
-    font-size: 0.9rem;
+    .btn-outline-success {
+      font-size: 0.9rem;
+      padding: 0.5rem;
     }
   }
   
 
   @font-face {
     font-family: "Minecraftia";
-    src: url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
   }
-  
-  

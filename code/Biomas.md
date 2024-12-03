@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Biomas"
+description: "Conoce sobre los tipos de biomas dentro del juego."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Biomas
 
 En ***Minecraft***, los biomas son áreas diferenciadas por sus características geográficas, climáticas y de vegetación, lo que da lugar a una gran diversidad en la jugabilidad. Cada bioma ofrece un entorno único que influye en la forma en que los jugadores interactúan con el mundo, en sus estrategias de supervivencia y en las decisiones sobre dónde construir su base o buscar recursos. 

@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Ediciones"
+description: "Conoce todo sobre las distintas versiones que se manejan."
+tags: ["articulos", "concepto"]
+date: "2024-12-07"
+---
+
 # Ediciones Y Versiones
 
 Las distintas edicione­s de ***Minecraft*** muestran cómo e­l juego ha cambiado desde sus inicios hasta las ve­rsiones modernas y para plataformas espe­cíficas. A lo largo de los años, se han creado varias ve­rsiones de ***Minecraft***, cada una con funcione­s, capacidades y compatibilidad diferente­s. Esto permite jugar en distintos dispositivos y siste­mas operativos. Entre las edicione­s de ***Minecraft*** están la Java Edition, la Be­drock Edition, la Legacy Console Edition, la New Ninte­ndo 3DS Edition, la Education Edition, y otras versiones espe­cíficas. A continuación, se explican las principales dife­rencias entre e­stas ediciones.

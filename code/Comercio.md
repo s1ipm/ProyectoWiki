@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Comercio"
+description: "Conoce sobre los intecambios dentro de Minecraft."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Comercio con Aldeanos
 
 ***El comercio en Minecraft*** es una mecánica que permite a los jugadores intercambiar objetos con los aldeanos del juego. Estos intercambios se realizan en forma de ***"ofertas comerciales"***, donde el jugador da a los aldeanos ciertos materiales o recursos a cambio de otros, que generalmente son objetos valiosos o útiles para la supervivencia y el progreso en el juego.

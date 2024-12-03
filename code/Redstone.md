@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Redstone"
+description: "Conoce sobre la Redstone."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Redstone
 
 ***La Redstone*** es uno de los componentes más extraordinarios y sofisticados de Minecraft, permitiendo a los ***jugadores*** introducir cierto grado de automatización y un manejo más técnico del universo del juego. Es uno de los recursos primordiales en la creación de construcciones avanzadas, desde trampas o puertas automáticas hasta sistemas _completos de contraseñas_ o _circuitos eléctricos_.

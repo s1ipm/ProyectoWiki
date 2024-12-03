@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Blog</title>
-  <meta name="description" content="Explora todo sobre Minecraft.">
+  <title>Artículos</title>
+  <meta name="description" content="Explora diferentes aspectos del universo de Minecraft.">
 <link rel="icon" href="https://cdn2.steamgriddb.com/icon/bf6423635e56a99e9df17852c6bfadca/32/512x512.png">
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -15,31 +16,29 @@
   <header>
   <h1>Wiki de <i>Minecraft</i></h1>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/"> </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/acerca">Acerca</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/articulos">Artículos</a>
-        </li>
-      </ul>
-      <!-- Buscador -->
-      <form class="d-flex" id="searchForm">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
-    </div>
+  <div class="container-fluid justify-content-center">
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav d-flex justify-content-center">
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/acerca">Acerca</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/articulos">Artículos</a>
+    </li>
+  </ul>
+</div>
+
+    <form class="d-flex" id="searchForm">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
+      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
+    </form>
   </div>
 </nav>
+
   <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Logotipo de Minecraft">
 </header>
 
@@ -47,17 +46,59 @@
     <div class="content-wrapper">
       <main class="main-content">
         <article class="post-content">
-          <p><strong></strong></p>
+          <p><strong>Explora diferentes aspectos del universo de Minecraft.</strong></p>
           <div>
-<h1>Página de Blog</h1>
-<h2>Artículos del blog ordenados ascendentemente</h2>
-<ul>
-  
-</ul>
 <hr />
-<h2>Artículos del blog ordenados descendentemente</h2>
+
+<section class="articulos-list">
+<h2 id="que-es-minecraft">¿Qué es Minecraft?</h2>
+🌟 Introducción al fascinante mundo de <i>Minecraft</i>. Aprende los conceptos básicos y cómo los jugadores interactúan en este increíble universo. 🌟
+<br><br>
 <ul>
-  
+  <li><a href="docs\Introducción\index.html">Introducción</a></li>
+  <li><a href="/articulos/jugador">Jugador</a></li>
+  <li><a href="/articulos/jugabilidad">Jugabilidad</a></li>
+  <li><a href="/articulos/Ediciones">Ediciones</a></li>
+</ul>
+
+<hr />
+
+<h2 id="jugabilidad">Jugabilidad</h2>
+🌟 Conoce los modos de juego y descubre cómo disfrutar de Minecraft de formas únicas y emocionantes. 🌟
+<br><br>
+<ul>
+  <li><a href="/articulos/supervivencia">Supervivencia</a></li>
+  <li><a href="/articulos/creativo">Creativo</a></li>
+  <li><a href="/articulos/aventura">Aventura</a></li>
+  <li><a href="/articulos/extremo">Extremo</a></li>
+  <li><a href="/articulos/espectador">Espectador</a></li>
+</ul>
+
+<hr />
+
+<h2 id="dimensiones">Dimensiones</h2>
+🌌 Explora los mundos alternativos dentro de Minecraft, llenos de desafíos y maravillas. 🌌
+<br><br>
+<ul>
+  <li><a href="/articulos/dimensionNETHER">Nether</a></li>
+  <li><a href="/articulos/dimensionEND">End</a></li>
+</ul>
+
+<hr />
+
+<h2 id="mecanicas">Mecánicas</h2>
+⚙️ Descubre cómo funcionan las mecánicas clave del juego, desde la alquimia hasta la minería. ⚙️
+<br><br>
+<ul>
+  <li><a href="/articulos/alquimia">Alquimia</a></li>
+  <li><a href="/articulos/biomas">Biomas</a></li>
+  <li><a href="/articulos/comercio">Comercio</a></li>
+  <li><a href="/articulos/criaturas">Criaturas</a></li>
+  <li><a href="/articulos/encantamientos">Encantamientos</a></li>
+  <li><a href="/articulos/fabricacion">Fabricación</a></li>
+  <li><a href="/articulos/mineria">Minería</a></li>
+  <li><a href="/articulos/pociones">Pociones</a></li>
+  <li><a href="/articulos/redstone">Redstone</a></li>
 </ul></div>
       </main>
 
@@ -69,5 +110,27 @@
   </small>
 </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const pages = {
+        "inicio": "/",
+        "acerca": "/acerca",
+        "artículos": "/articulos",
+        "minecraft": "/articulos/minecraft.html",
+        "biomas": "/articulos/biomas.html",
+        "redstone": "/articulos/redstone.html",
+        "criaturas": "/articulos/criaturas.html"
+      };
+      if (pages[query]) {
+        window.location.href = pages[query];
+      } else {
+        alert("No se encontraron resultados.");
+      }
+    });
+  </script>
+
 </body>
 </html>

@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Modo Espectador"
+description: "Conoce sobre el modo Espectador."
+tags: ["articulos", "jugabilidad"]
+date: "2024-12-07"
+---
+
 # Modo Espectador
 
 ***El Modo Espectador*** de ***Minecraft*** consiste en una modalidad de juego que permite a los ***jugadores*** que la utilicen explorar el mundo de ***Minecraft*** sin interactuar aunque se ofrece una perspectiva única de la cual pueden observar el mundo y los eventos sin ser afectados por las mecánicas del juego. Se introdujo en la versión 1.8 de ***Minecraft*** y está diseñado especialmente para esos ***jugadores*** que quieren explorarlo de forma libre, sin verse limitados por las reglas del modo supervivencia o las limitaciones del ***modo creativo***, es realmente útil para explorar, visualizar mapas creados por otras personas o para ver un mundo en general sin tener que estar en el mismo, participando.

@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Modo Espectador"
+description: "Conoce sobre el modo Exttremo."
+tags: ["articulos", "jugabilidad"]
+date: "2024-12-07"
+---
+
 # Modo Extremo (Hardcore)
 
 El ***Modo Extremo*** (también denominado Hardcore en ***Minecraft***) constituye una modalidad de juego orientada a proporcionar una experiencia retadora e inmensamente más complicada que la del ***Modo Supervivencia*** común. En este modo, los usuarios tendrán que enfrentar un entorno aún más duro, con normas y características que incrementan notablemente la dificultad y las consecuencias del juego, siendo un modo perfecto para aquellos usuarios que buscan un verdadero reto, además de integrar la tradicional mecánica de supervivencia, que incorpora más retos paralelo al modo de juego normal, como son la muerte permanente.

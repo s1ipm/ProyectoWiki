@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Encantamientos"
+description: "Conoce sobre los encantamientos."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Encantamientos
 
 En Minecraft, los encantamientos son mejoras místicas que se pueden otorgar a herramientas, armas, equipos y tomos, dotando a estos artículos de capacidades únicas Estas cualidades pueden mejorar las características de un objeto, como hacerlo más fuerte o más útil, o incluso darle poderes especiales, como respirar bajo el agua o causar daño adicional a enemigos específicos El cautivador procedimiento utiliza predominantemente la mesa hechizante, el martillo y el libro de amuletos.

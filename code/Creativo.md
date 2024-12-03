@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Modo Creativo"
+description: "Conoce sobre el modo Creativo."
+tags: ["articulos", "jugabilidad"]
+date: "2024-12-07"
+---
+
 # Modo Creativo
 
 El ***Modo Creativo*** de ***Minecraft*** está considerado por muchos como la modalidad del juego que permite a los ***jugadores*** jugar de un modo no restrictivo y, por tanto, libre en el mundo del juego. Su esencia destaca, de hecho, por ser la modalidad que, además de crear y explorar, es aquella que permite modificar todo sin límites, es decir, para los jugadores que están interesados en la construcción de estrechas, en la experimentación con mecánicas de juego de ***Minecraft*** o en los modos de juego de mapas personalizados, el ***Modo Creativo*** es probablemente la elección que más se acomoda a ellos, y esta modalidad destaca por su introducción en el juego desde sus primeras versiones, manteniéndose esa popularidad que tiene entre los jugadores que prefieren el modo de jugar de este Modo Creativo frente a las dificultades del ***Modo Supervivencia***. 

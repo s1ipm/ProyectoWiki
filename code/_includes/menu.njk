@@ -1,26 +1,23 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/"> </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/acerca">Acerca</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/articulos">Artículos</a>
-        </li>
-      </ul>
-      <!-- Buscador -->
-      <form class="d-flex" id="searchForm">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
-    </div>
+  <div class="container-fluid justify-content-center">
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav d-flex justify-content-center">
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/acerca">Acerca</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/articulos">Artículos</a>
+    </li>
+  </ul>
+</div>
+
+    <form class="d-flex" id="searchForm">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
+      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
+    </form>
   </div>
 </nav>

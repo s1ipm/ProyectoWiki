@@ -1,4 +1,53 @@
-<h1>Redstone</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redstone</title>
+  <meta name="description" content="Conoce sobre la Redstone.">
+<link rel="icon" href="https://cdn2.steamgriddb.com/icon/bf6423635e56a99e9df17852c6bfadca/32/512x512.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <header>
+  <h1>Wiki de <i>Minecraft</i></h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid justify-content-center">
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav d-flex justify-content-center">
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/acerca">Acerca</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/articulos">Artículos</a>
+    </li>
+  </ul>
+</div>
+
+    <form class="d-flex" id="searchForm">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
+      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+  <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Logotipo de Minecraft">
+</header>
+
+  <div class="container">
+    <div class="content-wrapper">
+      <main class="main-content">
+        <article class="post-content">
+          <p><strong>Conoce sobre la Redstone.</strong></p>
+          <div><h1>Redstone</h1>
 <p><em><strong>La Redstone</strong></em> es uno de los componentes más extraordinarios y sofisticados de Minecraft, permitiendo a los <em><strong>jugadores</strong></em> introducir cierto grado de automatización y un manejo más técnico del universo del juego. Es uno de los recursos primordiales en la creación de construcciones avanzadas, desde trampas o puertas automáticas hasta sistemas <em>completos de contraseñas</em> o <em>circuitos eléctricos</em>.</p>
 <p><em><strong>La Redstone</strong></em> es un <em>mineral</em> del juego que se comporta como un conductor eléctrico, que procesado, permite montar circuitos eléctricos que actúan sobre el ambiente del juego de diversas formas. Su funcionamiento se basa en principios que son parecidos a la electricidad y a la electrónica del mundo real, pero adaptados a la lógica del juego. <em><strong>La Redstone</strong></em> funciona en el juego de una manera similar a los circuitos eléctricos reales. Se utiliza para transmitir señales de energía de un bloque a otro, lo que puede activar ciertos mecanismos en el juego. Estas señales de <em><strong>redstone</strong></em> pueden ser de diferentes intensidades y tienen un rango limitado (generalmente 15 bloques), aunque se pueden amplificar con ciertos mecanismos.</p>
 <h2>Componentes Básicos</h2>
@@ -93,3 +142,46 @@ La señal de <em><strong>redstone</strong></em> puede extenderse hasta 15 bloque
 </ul>
 <hr>
 <p>Con la base suficiente de redstone, las personas pueden comenzar a hacer su propio <em>&quot;circuitos más complicadas&quot;</em>. <em><strong>Minecraft</strong></em> es lo suficientemente lógico para permitir tener <em>compuertas y sistemas de memoria</em> dentro del juego, o incluso la construcción de otras computadoras en sí mismo, debido a la <em><strong>redstone</strong></em> ser un circuito binario (señales activas y pasivas) creada por el jugones de los circuitos.</p>
+</div>
+      </main>
+      <hr>
+      <aside>
+        <h2>Categorías</h2>
+        <h3>Conceptos</h3>
+        <h3>Jugabilidad</h3>
+        <h3>Dimensiones</h3>
+        <h3>Mecánicas</h3>
+      </aside>
+
+  <hr>
+<footer>
+  <small>
+    🌟 <b>Sitio creado para un proyecto escolar con <a href="https://www.11ty.dev/" target="_blank">11ty</a></b>.  
+    <br> Inspirado en el universo de <i>Minecraft</i>. 🌟  
+  </small>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const pages = {
+        "inicio": "/",
+        "acerca": "/acerca",
+        "artículos": "/articulos",
+        "minecraft": "/articulos/minecraft.html",
+        "biomas": "/articulos/biomas.html",
+        "redstone": "/articulos/redstone.html",
+        "criaturas": "/articulos/criaturas.html"
+      };
+      if (pages[query]) {
+        window.location.href = pages[query];
+      } else {
+        alert("No se encontraron resultados.");
+      }
+    });
+  </script>
+
+</body>
+</html>

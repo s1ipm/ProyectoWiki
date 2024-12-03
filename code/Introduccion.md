@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Introducción a Minecraft"
+description: "Conoce todo sobre Minecraft"
+tags: ["articulos", "concepto"]
+date: "2024-12-07"
+---
+
 # Minecraft
 
 **Minecraft** es un popular videojuego y entretenimiento desarrollado por la empresa sueca Mojang y publicado por Markus ***"Notch"*** Persson en 2009.Con el paso de los años, ha ganado popularidad y se ha convertido en uno de los juegos más vendidos y vendidos. El juego presenta gráficos de píxeles únicos que permitena los ***jugadores*** interactuar con un mundo tridimensional de bloques. Este mundo abiertodonde los ***jugadores*** pueden crear, explorar y sobrevivir ha capturado la imaginación de millones de personas en todo el mundo.

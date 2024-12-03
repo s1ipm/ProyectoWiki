@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Criaturas"
+description: "Conoce sobre las criaturas."
+tags: ["articulos", "mecanicas"]
+date: "2024-12-07"
+---
+
 # Criaturas
 
 Las criaturas en Minecraft destacan su gran diversidad de comportamientos y características que han sido clasificadas de forma principal en tres tipos en función de cómo se comporten frente al jugador: pasivas, neutrales y hostiles. Además de estos tipos, existen las criaturas especiales que incluyen a los jefes como criaturas especiales, criaturas especiales eliminadas, criaturas especiales broma, y las criaturas especiales no implementadas. 

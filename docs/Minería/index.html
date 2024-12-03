@@ -1,4 +1,53 @@
-<h1>Minería</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minería</title>
+  <meta name="description" content="Conoce sobre la minería en Minecraft.">
+<link rel="icon" href="https://cdn2.steamgriddb.com/icon/bf6423635e56a99e9df17852c6bfadca/32/512x512.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <header>
+  <h1>Wiki de <i>Minecraft</i></h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid justify-content-center">
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav d-flex justify-content-center">
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/acerca">Acerca</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/articulos">Artículos</a>
+    </li>
+  </ul>
+</div>
+
+    <form class="d-flex" id="searchForm">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
+      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+  <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Logotipo de Minecraft">
+</header>
+
+  <div class="container">
+    <div class="content-wrapper">
+      <main class="main-content">
+        <article class="post-content">
+          <p><strong>Conoce sobre la minería en Minecraft.</strong></p>
+          <div><h1>Minería</h1>
 <p>La actividad minera constituye uno de los ejes básicos del videojuego <em><strong>Minecraft</strong></em>, pues es la principal vía para hacerse con los recursos exigibles para poder avanzar en el videojuego, no sólo bastando con excavar para hallar <em><strong>materiales</strong></em>, sino también con un conjunto de estrategias para realizar exploraciones de la profundidad de la generación del mundo y maximizar las ventajas en la obtención de recursos.</p>
 <p><em><strong>La minería</strong></em> es importante en <em><strong>Minecraft</strong></em>, en buena parte por el hecho de que, muchos de los objetos más útiles del juego <em>(los minerales, como hierro, diamantes, oro y esmeraldas)</em> sólo pueden ser encontrados excavando bajo terrenos. Así mismo, al ejecutar la acción de minar, los jugadores podrán encontrar también piedra roja <em><strong>(Redstone), lapislázuli, piedras preciosas, el hallazgo de fragmentos de materiales raros</strong></em>, que servirán como puertas para herramientas y otras mejoras del juego.
 Además de ser un medio para la consecución de materiales escasos, la minería permite, además:</p>
@@ -178,3 +227,46 @@ Mejora de herramientas, armas y armaduras de diamante.</li>
 Fabricar catalejos y cristales tintados.
 Elemento decorativo.</li>
 </ul>
+</div>
+      </main>
+      <hr>
+      <aside>
+        <h2>Categorías</h2>
+        <h3>Conceptos</h3>
+        <h3>Jugabilidad</h3>
+        <h3>Dimensiones</h3>
+        <h3>Mecánicas</h3>
+      </aside>
+
+  <hr>
+<footer>
+  <small>
+    🌟 <b>Sitio creado para un proyecto escolar con <a href="https://www.11ty.dev/" target="_blank">11ty</a></b>.  
+    <br> Inspirado en el universo de <i>Minecraft</i>. 🌟  
+  </small>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const pages = {
+        "inicio": "/",
+        "acerca": "/acerca",
+        "artículos": "/articulos",
+        "minecraft": "/articulos/minecraft.html",
+        "biomas": "/articulos/biomas.html",
+        "redstone": "/articulos/redstone.html",
+        "criaturas": "/articulos/criaturas.html"
+      };
+      if (pages[query]) {
+        window.location.href = pages[query];
+      } else {
+        alert("No se encontraron resultados.");
+      }
+    });
+  </script>
+
+</body>
+</html>

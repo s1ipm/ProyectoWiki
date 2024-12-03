@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Jugador de Minecraft"
+description: "Conoce sobre el modo de vista del Jugador"
+tags: ["articulos", "concepto"]
+date: "2024-12-07"
+---
+
 # La Jugabilidad de Minecraft
 
 ## Jugador

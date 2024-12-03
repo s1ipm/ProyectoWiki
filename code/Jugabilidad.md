@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Jugabilidad"
+description: "Conoce sobre los Modos de juego"
+tags: ["articulos", "concepto"]
+date: "2024-12-07"
+---
+
 # Modos de Juego
 
 **Minecraft** tiene cuatro modos de juego básicos: ***Supervivencia, Creativo, Aventura, Espectador y uno adicional Extremo.***

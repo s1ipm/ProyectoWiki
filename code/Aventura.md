@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Modo Aventura"
+description: "Conoce sobre el modo Aventura."
+tags: ["articulos", "jugabilidad"]
+date: "2024-12-07"
+---
+
 # Modo Aventura
 
 El ***Modo Aventura*** de ***Minecraft*** es en este sentido una modalidad de juego con un objetivo específico, que es precisamente poder ofrecer al ***jugador*** una experiencia más guiada y más centrada en la exploración y en la narrativa dentro del universo de Minecraft. Se trata de una modalidad de juego que se incorporó a la versión 1.3, ideada en especial para la creación de y el disfrute de mapas personalizados (aventuras). El ***Modo Aventura*** no es el ***Modo Supervivencia*** ni el ***Modo Creativo***, dado que en este modo se imponen unas reglas más restrictivas, de manera que el ***jugador*** esté obligado a cumplir una serie de normas dentro del mundo creado con un objetivo modal específico. 

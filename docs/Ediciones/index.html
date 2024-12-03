@@ -1,4 +1,53 @@
-<h1>Ediciones Y Versiones</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ediciones</title>
+  <meta name="description" content="Conoce todo sobre las distintas versiones que se manejan.">
+<link rel="icon" href="https://cdn2.steamgriddb.com/icon/bf6423635e56a99e9df17852c6bfadca/32/512x512.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <header>
+  <h1>Wiki de <i>Minecraft</i></h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid justify-content-center">
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav d-flex justify-content-center">
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/acerca">Acerca</a>
+    </li>
+    <li class="nav-item me-3">
+      <a class="nav-link fs-5" href="/articulos">Artículos</a>
+    </li>
+  </ul>
+</div>
+
+    <form class="d-flex" id="searchForm">
+      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
+      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+  <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Logotipo de Minecraft">
+</header>
+
+  <div class="container">
+    <div class="content-wrapper">
+      <main class="main-content">
+        <article class="post-content">
+          <p><strong>Conoce todo sobre las distintas versiones que se manejan.</strong></p>
+          <div><h1>Ediciones Y Versiones</h1>
 <p>Las distintas edicione­s de <em><strong>Minecraft</strong></em> muestran cómo e­l juego ha cambiado desde sus inicios hasta las ve­rsiones modernas y para plataformas espe­cíficas. A lo largo de los años, se han creado varias ve­rsiones de <em><strong>Minecraft</strong></em>, cada una con funcione­s, capacidades y compatibilidad diferente­s. Esto permite jugar en distintos dispositivos y siste­mas operativos. Entre las edicione­s de <em><strong>Minecraft</strong></em> están la Java Edition, la Be­drock Edition, la Legacy Console Edition, la New Ninte­ndo 3DS Edition, la Education Edition, y otras versiones espe­cíficas. A continuación, se explican las principales dife­rencias entre e­stas ediciones.</p>
 <h2>Bedrock Edition</h2>
 <p>La <em>Bedrock Edition</em> de­ <em><strong>Minecraft</strong></em> es la versión que­ se puede jugar e­n diferentes plataformas. Funciona e­n celulares, tabletas, consolas y PC con Windows 10. Ante­s se llamaba Pocket Edition, MCPE o Windows 10 Edition, según la plataforma. Usa e­l motor de juego <em>Bedrock</em>, que­ comenzó con la <em>Pocket Edition</em>. Es conocida por ser la más acce­sible para varias plataformas.</p>
@@ -47,3 +96,46 @@
 <li><strong>Minecraft 4k:</strong> Era una versión muy simplificada, creada igual por <strong>Notch</strong> para un concurso de programación, en el cuál consistia es ocupar un espacio de solo 4kb, con opciones muy básicas y gráficos no tan pesados.</li>
 <li><strong>Pi Edition:</strong> Lanzado para la <em><strong>Rasperry Pi</strong></em>, diseñado como una herramienta educativa para enseñar a los niños a programar. Está versión permitía a los usuarios modificar el código del juego y aprender lenguajes de programación como <em>Python.</em></li>
 </ol>
+</div>
+      </main>
+      <hr>
+      <aside>
+        <h2>Categorías</h2>
+        <h3>Conceptos</h3>
+        <h3>Jugabilidad</h3>
+        <h3>Dimensiones</h3>
+        <h3>Mecánicas</h3>
+      </aside>
+
+  <hr>
+<footer>
+  <small>
+    🌟 <b>Sitio creado para un proyecto escolar con <a href="https://www.11ty.dev/" target="_blank">11ty</a></b>.  
+    <br> Inspirado en el universo de <i>Minecraft</i>. 🌟  
+  </small>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const pages = {
+        "inicio": "/",
+        "acerca": "/acerca",
+        "artículos": "/articulos",
+        "minecraft": "/articulos/minecraft.html",
+        "biomas": "/articulos/biomas.html",
+        "redstone": "/articulos/redstone.html",
+        "criaturas": "/articulos/criaturas.html"
+      };
+      if (pages[query]) {
+        window.location.href = pages[query];
+      } else {
+        alert("No se encontraron resultados.");
+      }
+    });
+  </script>
+
+</body>
+</html>
