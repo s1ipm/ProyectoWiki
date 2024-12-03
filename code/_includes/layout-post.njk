@@ -25,17 +25,27 @@
       <hr>
       <aside>
         <h2>Categorías</h2>
-        <ul>
-          {%for article in%}
-        </ul>
         <h3>Conceptos</h3>
-        <ul></ul>
+        <ul>
+          {%for article in collections.conceptos %}
+          <li><a href="{{article.url}}"> {{ article.data.title }}</a></li>{% end for %}
+        </ul>
+
         <h3>Jugabilidad</h3>
-        <ul></ul>
+        <ul>
+          {%for article in collections.jugabilidad %}
+          <li><a href="{{article.url}}"> {{ article.data.title }}</a></li>{% end for %}
+        </ul>
         <h3>Dimensiones</h3>
-        <ul></ul>
+        <ul>
+          {%for article in collections.dimensiones %}
+          <li><a href="{{article.url}}"> {{ article.data.title }}</a></li>{% end for %}
+        </ul>
         <h3>Mecánicas</h3>
-        <ul></ul>
+        <ul>
+          {%for article in collections.mecanicas %}
+          <li><a href="{{article.url}}"> {{ article.data.title }}</a></li>{% end for %}
+        </ul>
       </aside>
 
   {% include "footer.njk" %}
