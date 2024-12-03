@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Dimensión END"
+description: "Conoce sobre el mundo del END."
+tags: ["articulos", "dimensiones"]
+date: "2024-12-07"
+---
+
 # Dimensión del END
 
 ***La dimensión del End*** es una de las tres dimensiones principales en ***Minecraft***, junto con el ***Overworld y el Nether***. ***La dimensión del End*** es uno de los lugares más fascinantes y desafiantes de ***Minecraft***. Representa el final del juego base, ya que es el hogar del ***Dragón del End, el jefe final***. 

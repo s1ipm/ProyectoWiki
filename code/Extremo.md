@@ -1,7 +1,7 @@
 ---
 layout: "layout-post.njk"
-title: "Modo Espectador"
-description: "Conoce sobre el modo Exttremo."
+title: "Modo Extremo"
+description: "Conoce sobre el modo Extremo."
 tags: ["articulos", "jugabilidad"]
 date: "2024-12-07"
 ---

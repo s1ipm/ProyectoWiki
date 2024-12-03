@@ -1,4 +1,12 @@
-## Dimensión del Nether
+---
+layout: "layout-post.njk"
+title: "Dimensión NETHER"
+description: "Conoce sobre el mundo del NETHER."
+tags: ["articulos", "dimensiones"]
+date: "2024-12-07"
+---
+
+# Dimensión del Nether
 
 ***La dimension Nether*** es una de las tres dimensiones principales en ***Minecraft***,tiene una dosom de ane jiundo dosom y un ellos. eteater. Esta peligrosa dimensión subterránea es vital para que el ***jugador*** avance en el juego: el Nether es un bioma lleno de peligros, pero también el hogar de valiosos recursos. esta submundo hostil está habitado por criaturas peligrosas y lleno de materiales raros, muchos de los cuales son necesarios en receta y activityades de juego específico.
 

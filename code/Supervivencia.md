@@ -1,3 +1,11 @@
+---
+layout: "layout-post.njk"
+title: "Modo Supervivencia"
+description: "Conoce sobre el modo Supervivencia."
+tags: ["articulos", "jugabilidad"]
+date: "2024-12-07"
+---
+
 # Modo Supervivencia
 
 El ***Modo Supervivencia*** es uno de los modos que podemos decir que son de alguna forma "básicos" y más recomendados en ***Minecraft***. En este modo el ***jugador*** tiene que pensar en todos los aspectos que impliquen a su salud, a su hambre, a sus recursos y debe combatir con los peligros del mundo. Es, quizás, el que más se asemeja a una experiencia de supervivencia real en el videojuego, en el que el ***jugador*** debe buscar recursos, crear refugios, cazar, cultivar y combatir dioses, pero además al mismo tiempo debe prevenir morir por sucesos fortuitos, hambre o enemigos.
