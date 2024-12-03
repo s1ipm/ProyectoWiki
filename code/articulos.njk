@@ -7,52 +7,45 @@ description: Explora diferentes aspectos del universo de Minecraft.
 <hr />
 
 <section class="articulos-list">
-<h2 id="que-es-minecraft">¿Qué es Minecraft?</h2>
-🌟 Introducción al fascinante mundo de <i>Minecraft</i>. Aprende los conceptos básicos y cómo los jugadores interactúan en este increíble universo. 🌟
-<br><br>
-<ul>
-  <li><a href="docs\Introducción\index.html">Introducción</a></li>
-  <li><a href="/articulos/jugador">Jugador</a></li>
-  <li><a href="/articulos/jugabilidad">Jugabilidad</a></li>
-  <li><a href="/articulos/Ediciones">Ediciones</a></li>
-</ul>
+  <h2 id="conceptos">¿Qué es Minecraft?</h2>
+  🌟 Introducción al fascinante mundo de <i>Minecraft</i>. Aprende los conceptos básicos y cómo los jugadores interactúan en este increíble universo. 🌟
+  <br><br>
+  <ul>
+    {% for article in collections.concepto | sort %}
+      <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<hr />
+  <hr />
 
-<h2 id="jugabilidad">Jugabilidad</h2>
-🌟 Conoce los modos de juego y descubre cómo disfrutar de Minecraft de formas únicas y emocionantes. 🌟
-<br><br>
-<ul>
-  <li><a href="/articulos/supervivencia">Supervivencia</a></li>
-  <li><a href="/articulos/creativo">Creativo</a></li>
-  <li><a href="/articulos/aventura">Aventura</a></li>
-  <li><a href="/articulos/extremo">Extremo</a></li>
-  <li><a href="/articulos/espectador">Espectador</a></li>
-</ul>
+  <h2 id="jugabilidad">Jugabilidad</h2>
+  🌟 Conoce los modos de juego y descubre cómo disfrutar de Minecraft de formas únicas y emocionantes. 🌟
+  <br><br>
+  <ul>
+    {% for article in collections.jugabilidad | sort %}
+      <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<hr />
+  <hr />
 
-<h2 id="dimensiones">Dimensiones</h2>
-🌌 Explora los mundos alternativos dentro de Minecraft, llenos de desafíos y maravillas. 🌌
-<br><br>
-<ul>
-  <li><a href="/articulos/dimensionNETHER">Nether</a></li>
-  <li><a href="/articulos/dimensionEND">End</a></li>
-</ul>
+  <h2 id="dimensiones">Dimensiones</h2>
+  🌌 Explora los mundos alternativos dentro de Minecraft, llenos de desafíos y maravillas. 🌌
+  <br><br>
+  <ul>
+    {% for article in collections.dimensiones | sort %}
+      <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<hr />
+  <hr />
 
-<h2 id="mecanicas">Mecánicas</h2>
-⚙️ Descubre cómo funcionan las mecánicas clave del juego, desde la alquimia hasta la minería. ⚙️
-<br><br>
-<ul>
-  <li><a href="/articulos/alquimia">Alquimia</a></li>
-  <li><a href="/articulos/biomas">Biomas</a></li>
-  <li><a href="/articulos/comercio">Comercio</a></li>
-  <li><a href="/articulos/criaturas">Criaturas</a></li>
-  <li><a href="/articulos/encantamientos">Encantamientos</a></li>
-  <li><a href="/articulos/fabricacion">Fabricación</a></li>
-  <li><a href="/articulos/mineria">Minería</a></li>
-  <li><a href="/articulos/pociones">Pociones</a></li>
-  <li><a href="/articulos/redstone">Redstone</a></li>
-</ul>
+  <h2 id="mecanicas">Mecánicas</h2>
+  ⚙️ Descubre cómo funcionan las mecánicas clave del juego, desde la alquimia hasta la minería. ⚙️
+  <br><br>
+  <ul>
+    {% for article in collections.mecanicas | sort %}
+      <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

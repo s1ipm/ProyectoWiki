@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <meta name="description" content="{{ description | default('Explora todo sobre Minecraft.') }}">
-  <link rel="icon" href="https://cdn2.steamgriddb.com/icon/bf6423635e56a99e9df17852c6bfadca/32/512x512.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="icon" href="https://cdn2.steamgriddb.com/icon/bf6423635e56a99e9df17852c6bfadca/32/512x512.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -15,43 +15,62 @@
 
   {% include "header.njk" %}
 
-  <div class="container my-5">
-    <div class="row">
-      <!-- Contenido principal -->
-      <main class="col-md-8">
+  <div class="container">
+    <div class="content-wrapper">
+      <main class="main-content">
         <article class="post-content">
           <p><strong>{{ description }}</strong></p>
           <div>{{ content | safe }}</div>
-        </article>
-      </main>
+      </main>  
 
-      <!-- Barra lateral -->
-      <aside class="col-md-4">
-        <h2>Categorías</h2>
-        {% for category, articles in {
-            "Conceptos": collections.conceptos,
-            "Jugabilidad": collections.jugabilidad,
-            "Dimensiones": collections.dimensiones,
-            "Mecánicas": collections.mecanicas
-        }.items() %}
-        {% if articles %}
-        <h3>{{ category }}</h3>
-        <ul>
-          {% for article in articles %}
-          <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
-          {% endfor %}
-        </ul>
-        {% else %}
-        <p>No hay artículos en esta categoría.</p>
-        {% endif %}
-        {% endfor %}
-      </aside>
-    </div>
-  </div>
+<aside>
+<h2>Categorías</h2>
+<h3>Conceptos</h3>
+<ul>
+{% for article in collections.concepto %}
+<li>
+  <a href="{{ article.url }}">
+    {{ article.data.title }}
+  </a>
+</li>
+{%endfor%}
+</ul>
+<h3>Jugabilidad</h3>
+<ul>
+{% for article in collections.jugabilidad %}
+<li>
+  <a href="{{ article.url }}">
+    {{ article.data.title }}
+  </a>
+</li>
+{%endfor%}
+</ul>
+<h3>Dimensiones</h3>
+<ul>
+{% for article in collections.dimensiones %}
+<li>
+  <a href="{{ article.url }}">
+    {{ article.data.title }}
+  </a>
+</li>
+{%endfor%}
+</ul>
+<h3>Mecánicas</h3>
+<ul>
+{% for article in collections.mecanicas %}
+<li>
+  <a href="{{ article.url }}">
+    {{ article.data.title }}
+  </a>
+</li>
+{%endfor%}
+</ul>
+</aside>  
+
 
   {% include "footer.njk" %}
-
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
   <script>
     document.getElementById('searchForm').addEventListener('submit', function (event) {
       event.preventDefault();
@@ -72,5 +91,6 @@
       }
     });
   </script>
+
 </body>
 </html>
