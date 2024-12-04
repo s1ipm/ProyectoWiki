@@ -14,6 +14,9 @@ date: "2024-12-07"
 
 La existencia del ***jugador*** está ilustrada mediante una barra de corazones arriba a la pantalla. La cantidad total de vida corresponde a 10 corazones, 20 puntos de salud (2 puntos por corazón). Los corazones no se restablecen de manera automática en el caso de que el ***jugador*** reciba daño, a menos que se cumplen determinados condicionantes o bien regenerar vida por saturación por lo que, igualmente, el jugador en el momento que goza de pociones para regenerar salud. 
 
+<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_header.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+
+
 ### Daño
 
 Cuando el ***jugador*** recibe daño (por ejemplo, por caídas, criaturas hostiles, lava, etc.), la salud disminuye. Cada tipo de daño tiene un valor determinado, como las caídas, que varían según la altura, o los ataques de enemigos que infligen más o menos daño según su tipo:
@@ -26,6 +29,8 @@ Cuando el ***jugador*** recibe daño (por ejemplo, por caídas, criaturas hostil
 4. Envenenamiento o maldiciones: Existen ciertos efectos que no afectan directamente a la salud, aunque pueden ser peligrosos. Por ejemplo, el veneno no causa la muerte del jugador, pero le reducirá a 1 punto de salud. Asimismo, los efectos de las maldiciones, como la del "Hambre", o maldiciones como "Ceguera", modifican las capacidades del ***jugador***. 
 - Regeneración: Se requiere un mínimo de 10 puntos de saturación y no recibir daño para comenzar el proceso de regeneración. La regeneración de salud comienza lentamente, y para que esto se produzca a la máxima velocidad la saturación debe estar al máximo (el ***jugador*** debe de tener toda la barra de comida llena)
 - Muerte: Si el ***jugador*** muere, todo se pierde, a menos que el ajuste de “conservar el inventario” esté activado. Todos sus objetos caen en el lugar en el que murió y el jugador tiene un tiempo limitado para recogerlos antes de que desaparezcan. El ***jugador*** regresa al último lugar que hicieron revivir en un punto de aparición, por lo general la última cama en la que durmió, y si no se estableció alguno, se reiniciará a partir de las coordenadas iniciales del mundo.
+
+<img src="https://c.tenor.com/nSladT1BTMkAAAAd/tenor.gif" alt="Uso de experiencia" style="max-width: 1000px;">
 
 ### Saturación
 
@@ -40,6 +45,9 @@ La saturación es, por lo tanto, un aspecto crucial para la supervivencia, ya qu
 
 El hambre es un sistema que afecta cómo el ***jugador*** realiza actividades y su capacidad de regenerar salud. En **Minecraft**, el ***jugador*** debe mantener su barra de hambre llena para poder realizar acciones como correr, saltar y regenerar salud. Cuando la barra de hambre está llena (con los 10 puntos completos), puedes realizar todas las actividades sin inconvenientes, como correr, saltar y regenerar salud de forma automática. Sin embargo, si la barra de hambre baja de 6 puntos, ya no podrás correr y tu movimiento será más lento. Además, la regeneración de salud se detendrá hasta que consumas algo para restaurar la barra de hambre. Si la barra llega a cero, el ***jugador*** comenzará a perder salud lentamente, a razón de 1/2 corazón cada 40 segundos, hasta que ingiera algún alimento para recuperar hambre.
 
+<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_Hunger.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+
+
 1. Barra llena de comida: Cuando la barra de hambre está llena (10 puntos), puedes hacer todo normalmente (correr, saltar, regenerar salud).
 2. Barra media de comida: Si la barra de hambre disminuye a menos de 6 puntos, no puedes correr y te mueves más lentamente y no se regenera salud.
 3. Barra vacía de comida: Si la barra de hambre llega a cero, el ***jugador*** comenzará a perder salud lentamente (1/2 corazón cada 40 segundos) hasta que coma algo.
@@ -51,6 +59,8 @@ Esto es posible con la comida cocida que es (carne de cerdo o vaca), sin embargo
 La experiencia se presenta en forma de orbes que se acumulan en una barra de experiencia. Estos orbes no se pueden almacenar en el inventario, pero se recogen automáticamente cuando están cerca del ***jugador***. Su uso principal es para encantar objetos, reparar herramientas en un yunque o mejorarlas.
 
 ### Maneras de obtener EXP
+
+<img src="https://staticg.sportskeeda.com/editor/2022/01/435b0-16427072604481-1920.jpg" alt="Uso de experiencia" style="max-width: 500px;">
 
 - Matando criaturas: Se obtienen orbes de experiencia. Los hostiles sueltan más exp que los pasivos.
 - Minando: El recolectar minerales ayuda a subir en exp.
@@ -65,4 +75,3 @@ Se utiliza para ciertas cosas, pero en lo más importante en lo que se enfoca es
 * Encantar objetos: Usando una mesa de encantamientos, puedes gastar puntos de EXP para mejorar tus herramientas, armas y armaduras.
 * Arreglo de herramientas: En un yunque, puedes usar EXP para reparar tus herramientas o incluso combinarlas con otras mismas herramientas.
 * Subir de nivel: Permitirá realizar más encantamientos y reparaciones a medida que avanzas en el juego.
-

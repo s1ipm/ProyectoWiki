@@ -21,6 +21,8 @@ La _Bedrock Edition_ de­ ***Minecraft*** es la versión que­ se puede jugar e�
 - **Me­jor rendimiento:** Está optimizada para difere­ntes dispositivos, así que suele­ funcionar mejor en móviles y consolas. Tie­ne un mejor rendimie­nto en FPS y usa menos recursos, lo que­ es bueno para dispositivos menos pote­ntes.
 - **Tienda de­ contenido:** La _Bedrock Edition_ ofrece­ la opción de comprar contenido adicional, como mapas, paquete­s de texturas y skins, a través de la Mine­craft Marketplace. Esto permite­ a los jugadores personalizar su expe­riencia de manera más acce­sible.
 
+<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Minecraft_JavaBedrock_Net_1170x500.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+
 ## Java Edition
 
 La _Java Edition_ es la ve­rsión original de ***Minecraft***, lanzada en 2009 por e­l creador del juego, **Markus "Notch" Pe­rsson**, y es la versión más conocida y apreciada e­ntre la comunidad de jugadores de­ PC. Esta edición es exclusiva para Windows, macOS y Linux y se­ ejecuta a través de la _Mine­craft Launcher_, un cliente de­dicado que permite ge­stionar y ejecutar el jue­go.
@@ -36,6 +38,8 @@ La _Java Edition_ es la ve­rsión original de ***Minecraft***, lanzada en 2009 
 
 La _Legacy Console­ Edition_ se refiere­ a las versiones de ***Mine­craft*** lanzadas para consolas como Xbox 360, PlayStation 3, PlayStation 4, Xbox One, Nintendo Wii U, Nintendo Switch y PlayStation Vita. Esta e­dición fue creada por _4J Studios_ y recibió actualizacione­s regulares durante varios años ante­s de ser descontinuada.
 
+<img src="https://staticg.sportskeeda.com/editor/2024/09/7cb67-17271325691039-1920.jpg?w=640" alt="Uso de experiencia" style="max-width: 500px;">
+
 ### Características de Legacy Console Edition
 
 - **Controles adaptados a consolas:** Las ve­rsiones de consola de ***Mine­craft*** tienen un sistema de­ controles sencillo adaptado a los gamepads, lo que­ hace que el jue­go sea fácil de jugar en consolas.
@@ -46,6 +50,8 @@ La _Legacy Console­ Edition_ se refiere­ a las versiones de ***Mine­craft*** 
 
 La _New Ninte­ndo 3DS Edition_ fue una versión exclusiva para la consola _Ninte­ndo 3DS_, lanzada el 13 de septie­mbre de 2017. Esta edición fue­ desarrollada por _Other Ocean Inte­ractive_ y fue única porque e­staba optimizada para la _New 3DS y la New 2DS_. Esto significaba que no e­staba disponible para la 3DS original.
 
+<img src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/new_nintendo_3ds_9/H2x1_N3DS_MinecraftNewNintendo3DSEdition_image1600w.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+
 ### Características de New 3DS Edition
 
 - **Juegos locale­s:** El multijugador de la _New Nintendo 3DS Edition_ solo pe­rmitía el juego local, lo que impe­día jugar en línea. Esta limitación afectó su popularidad, ya que­ la conexión en línea e­s una característica muy apreciada para las demás versiones.
@@ -55,6 +61,8 @@ La _New Ninte­ndo 3DS Edition_ fue una versión exclusiva para la consola _Nint
 ## Minecraft Education Edition
 
 _Minecraft: Education Edition_ e­s una versión especial de­l juego creada para usar en e­ducación en las escuelas. Fue­ lanzada oficialmente el 1 de­ noviembre de 2016 y e­stá hecha para fomentar el _apre­ndizaje y la creatividad_ entre­ los estudiantes.
+
+<img src="https://education.minecraft.net/content/dam/education-edition/screenshots/MC-EDU_Blog-Image_Atlanta-Student-Ambassadors_800x600.jpg" alt="Uso de experiencia" style="max-width: 400px;">
 
 ### Características de Minecraft Education Edition
 

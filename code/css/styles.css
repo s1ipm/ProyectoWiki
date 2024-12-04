@@ -79,6 +79,34 @@ body {
   text-shadow: 1px 1px 4px #000000;
 }
 
+aside {padding: 1rem;
+  margin: 1rem auto;
+  max-width: 90%;
+}
+
+aside p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+aside ul {
+  list-style-position: inside;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+aside ul li {
+  list-style: disc;
+  text-align: left;
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
 color: #e6d815;
 text-decoration: none;
@@ -148,7 +176,31 @@ max-width: 100%;
     background-color: #FFCC00;
     transform: scale(1.05);
   }
-  
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+aside ul, aside ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+aside ul li, aside ol li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
   @media (max-width: 768px) {
     .navbar-toggler {
@@ -167,7 +219,6 @@ max-width: 100%;
     }
   }
   
-
   @font-face {
     font-family: "Minecraftia";
     src: url('https://fonts.googleapis.com/css2?family=VT323&display=swap');

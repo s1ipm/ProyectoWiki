@@ -12,6 +12,17 @@ date: "2024-12-07"
 
 El ***jugador*** es el personaje controlado a la hora de jugar a **Minecraft**. El ***jugador*** (conocido como **Steve**) es moreno, de pelo marrón oscuro y ojos índigo. Lleva una camiseta de manga cortas azul cian, unos vaqueros de color índigo y unos zapatos grises. Con el paso de las actualizaciones, se añadió otro personaje por defecto llamado ***Alex*** que lleva una camisa de mangas cortas de color verde claro, unos pantalones de color marrón y unas botas grises. Tiene un tono de piel pálido, ojos verdes y con un cabello pelirrojo.
 
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://media.tenor.com/U2fns8isxrwAAAAi/minecraft-steve.gif" alt="Logo de Minecraft" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <img src="https://img2-levelup.buscafs.com/757432/757432.jpg" alt="Minecraft" class="img-fluid" style="max-width: 530px;">
+    </div>
+  </div>
+</section>
+
+
 ## Inventario
 
 El ***jugador*** tiene la capacidad de llevar 36 stacks (9 en su barra y 27 en el inventario), sin contar la armadura, aquí el ***jugador*** puede recojer y manipular objetos y crearlos desde un pequeño inventario que tiene en el panel. De la misma forma es capaz de incitar a la reproducción de otros mobs como las vacas, los cerdos y los lobos, entre otros. 
@@ -23,6 +34,8 @@ El ***jugador*** se desplaza caminando a 4,317 metros (bloques) por segundo. Lo 
 ### Correr
 Correr es un método de transporte que le permite a un ***jugador*** viajar más rápido a expensas de gastar sus puntos de hambre. Los ***jugadores*** además infligen más puntos de empuje en su primer golpe si corren y el campo de visión se expande ligeramente. Se usa para avanzar más rápido que caminar, la barra de hambre de vacía 1⁄2 cada 40 metros, o sea cada 7 segundos.
 El correr puede ser interrumpido por varias acciones: colisionar con un bloque, agacharse, bloquear con un escudo o montarse en una entidad (como botes, caballos, cerdos, etc.). Además, si un ***jugador*** corre durante 30 segundos sobre una superficie plana, el correr se detendrá automáticamente, a menos que se mantenga presionada la tecla de correr.
+
+<img src="https://c.tenor.com/9GjdFTzP7hkAAAAd/tenor.gif" alt="Uso de experiencia" style="max-width: 1000px;">
 
 ####  Ralentización
 Cuando el ***jugador*** pone un pie en determinados bloques y situaciones, su movimiento se ve ralentizado. En concreto, caminar a través de bloques de slime, miel, arena de almas, telarañas, arbustos de bayas dulces y agua/lava, ralentiza su movimiento. Además, el encantamiento de lentitud, así como las acciones de bloquear, comer, beber, cargar un arco o tridente, o lanzar un ojo de Ender, también reducen la velocidad.
@@ -49,11 +62,23 @@ Alguna de la interfaz común que se maneja es el siguiente y son importantes par
 - Barra de Oxígeno: Aparece cuando el ***jugador*** está bajo el agua, y muestra el oxígeno que tiene el ***jugador***. Si se queda sin oxígeno, al ***jugador*** se le aplicará daño por ahogamiento.
 - Barra de Hambre: Permite observar el nivel de hambre del ***jugador***; si se queda sin puntos de hambre, el ***jugador*** no podrá regenerar salud, aunque sí se le restablecerán al comer.
 
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://www.minecraft101.net/r/i/minecraft-UI.png" alt="Logo de Minecraft" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <img src="https://media.forgecdn.net/attachments/594/419/furnace.png" alt="Minecraft" class="img-fluid" style="max-width: 760px;">
+    </div>
+  </div>
+</section>
+
 ### Barra de Objetos
 La barra de objetos es la barra de selección que aparece en la parte inferior de la pantalla. Constituye el espacio reservado por el ***jugador*** para la selección y guardado de objetos de uso común. Está formada por las casillas nueve inferiores del inventario del ***jugador***. El objeto seleccionado se representa a la derecha de la pantalla, o un puño vacío si hubiera una casilla vacía. 
 
 ## Personalización de Avatares
 A través de **Minecraft**, los ***jugadores*** tienen la opción de modificar la apariencia de su personaje mediante un cambio de skin, siendo un skin una imagen _.PNG_ que define cómo se ve el avatar del ***jugador*** en **Minecraft**, así los ***jugadores*** tienen la posibilidad de personalizar su propio skin o bajarlo a través de la red o de la páginas de internet(MinecraftSkins)[https://www.minecraftskins.com/]
+
+<img src="https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/76WUFPURXJNXJLCJHSII6DWWGY.jpg" alt="Uso de experiencia" style="max-width: 1000px;">
 
 Personalizar el _skin_ de **Minecraft** permite dar una apariencia única a cada ***jugador***, pudiendo cada uno crear su propio skin, descargar uno creado previamente o bien utilizar editores web para crear uno totalmente original, y después sólo hay que subirlo a la cuenta de la pagina web oficial de **Minecraft** para que el ***jugador*** imprima su estilo propio en el juego.
 A pesar de que el skin de un ***jugador*** no tiene incidencia en la mecánica del juego (por ejemplo, no confiere habilidades especiales al personaje o bien modifica el comportamiento de la misma), el skin de un ***jugador***, puede influir mucho en la experiencia estética y la experiencia social del ***jugador*** dentro de su juego. La personalización de skins permite a los ***jugadores*** ser más visibles entre los demás, expresar su propio gusto y/o analizar personajes en los servidores **multijugador**. En servidores con roles o temáticas específicas para juegos, los skins pueden, además, ayudar a los ***jugadores*** a sentirse inmersos en la experiencia del juego. 
