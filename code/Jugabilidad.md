@@ -14,7 +14,7 @@ date: "2024-12-07"
 
 La existencia del ***jugador*** está ilustrada mediante una barra de corazones arriba a la pantalla. La cantidad total de vida corresponde a 10 corazones, 20 puntos de salud (2 puntos por corazón). Los corazones no se restablecen de manera automática en el caso de que el ***jugador*** reciba daño, a menos que se cumplen determinados condicionantes o bien regenerar vida por saturación por lo que, igualmente, el jugador en el momento que goza de pociones para regenerar salud. 
 
-<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_header.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_header.jpg" alt="Uso de experiencia">
 
 
 ### Daño
@@ -22,15 +22,18 @@ La existencia del ***jugador*** está ilustrada mediante una barra de corazones 
 Cuando el ***jugador*** recibe daño (por ejemplo, por caídas, criaturas hostiles, lava, etc.), la salud disminuye. Cada tipo de daño tiene un valor determinado, como las caídas, que varían según la altura, o los ataques de enemigos que infligen más o menos daño según su tipo:
 
 #### Tipos de daño:
-
-1. Caídas: El daño por caída depende de la distancia que el ***jugador*** haya caído. Por ejemplo, caer de más de 3 bloques de altura causará daño.
+1. Caídas: El daño por caída depende de la distancia que el jugador haya caído. Por ejemplo, caer de más de 3 bloques de altura causará daño.
 2. Ataques de criaturas: Los valores del daño son muy diferentes en cada criatura. Por ejemplo, un zombi hace 1 corazón de daño, y una criatura como el creeper hace mucho más daño dependiendo de si el ataque está más o menos cerca de una de sus explosiones.
-3. Lava o Fuego: La lava provoca un daño continuo de 1 corazón cada segundo que esté el ***jugador*** dentro, y el fuego también provoca daño cada segundo de 1 corazón, y en el caso de un fuego se apagará después de un tiempo. 
+3. Lava o Fuego: La lava provoca un daño continuo de 1 corazón cada segundo que esté el jugador dentro, y el fuego también provoca daño cada segundo de 1 corazón, y en el caso de un fuego se apagará después de un tiempo. 
 4. Envenenamiento o maldiciones: Existen ciertos efectos que no afectan directamente a la salud, aunque pueden ser peligrosos. Por ejemplo, el veneno no causa la muerte del jugador, pero le reducirá a 1 punto de salud. Asimismo, los efectos de las maldiciones, como la del "Hambre", o maldiciones como "Ceguera", modifican las capacidades del ***jugador***. 
-- Regeneración: Se requiere un mínimo de 10 puntos de saturación y no recibir daño para comenzar el proceso de regeneración. La regeneración de salud comienza lentamente, y para que esto se produzca a la máxima velocidad la saturación debe estar al máximo (el ***jugador*** debe de tener toda la barra de comida llena)
-- Muerte: Si el ***jugador*** muere, todo se pierde, a menos que el ajuste de “conservar el inventario” esté activado. Todos sus objetos caen en el lugar en el que murió y el jugador tiene un tiempo limitado para recogerlos antes de que desaparezcan. El ***jugador*** regresa al último lugar que hicieron revivir en un punto de aparición, por lo general la última cama en la que durmió, y si no se estableció alguno, se reiniciará a partir de las coordenadas iniciales del mundo.
+- Regeneración: Se requiere un mínimo de 10 puntos de saturación y no recibir daño para comenzar el proceso de regeneración. La regeneración de salud comienza lentamente, y para que esto se produzca a la máxima velocidad la saturación debe estar al máximo (eljugador debe de tener toda la barra de comida llena).
+- Muerte: Si el jugador muere, todo se pierde, a menos que el ajuste de “conservar el inventario” esté activado. Todos sus objetos caen en el lugar en el que murió y el jugador tiene un tiempo limitado para recogerlos antes de que desaparezcan. El jugador regresa al último lugar que hicieron revivir en un punto de aparición, por lo general la última cama en la que durmió, y si no se estableció alguno, se reiniciará a partir de las coordenadas iniciales del mundo.
 
-<img src="https://c.tenor.com/nSladT1BTMkAAAAd/tenor.gif" alt="Uso de experiencia" style="max-width: 1000px;">
+<hr>
+
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="https://c.tenor.com/nSladT1BTMkAAAAd/tenor.gif" alt="Modo de Daño">
+</div>
 
 ### Saturación
 
@@ -45,7 +48,7 @@ La saturación es, por lo tanto, un aspecto crucial para la supervivencia, ya qu
 
 El hambre es un sistema que afecta cómo el ***jugador*** realiza actividades y su capacidad de regenerar salud. En **Minecraft**, el ***jugador*** debe mantener su barra de hambre llena para poder realizar acciones como correr, saltar y regenerar salud. Cuando la barra de hambre está llena (con los 10 puntos completos), puedes realizar todas las actividades sin inconvenientes, como correr, saltar y regenerar salud de forma automática. Sin embargo, si la barra de hambre baja de 6 puntos, ya no podrás correr y tu movimiento será más lento. Además, la regeneración de salud se detendrá hasta que consumas algo para restaurar la barra de hambre. Si la barra llega a cero, el ***jugador*** comenzará a perder salud lentamente, a razón de 1/2 corazón cada 40 segundos, hasta que ingiera algún alimento para recuperar hambre.
 
-<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_Hunger.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_Hunger.jpg" alt="Hambre">
 
 
 1. Barra llena de comida: Cuando la barra de hambre está llena (10 puntos), puedes hacer todo normalmente (correr, saltar, regenerar salud).
@@ -60,7 +63,7 @@ La experiencia se presenta en forma de orbes que se acumulan en una barra de exp
 
 ### Maneras de obtener EXP
 
-<img src="https://staticg.sportskeeda.com/editor/2022/01/435b0-16427072604481-1920.jpg" alt="Uso de experiencia" style="max-width: 500px;">
+<img src="https://staticg.sportskeeda.com/editor/2022/01/435b0-16427072604481-1920.jpg" alt="EXP">
 
 - Matando criaturas: Se obtienen orbes de experiencia. Los hostiles sueltan más exp que los pasivos.
 - Minando: El recolectar minerales ayuda a subir en exp.

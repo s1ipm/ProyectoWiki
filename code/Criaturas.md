@@ -44,28 +44,206 @@ Algunas criaturas en Minecraft tienen la capacidad de volar, lo que les da una v
 
 Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar desde el suelo, lo que las convierte en una amenaza única. Como Ghast, Dragón del End, Murciélago.
 
-## Cada Criatura
+<h2>Cada Criatura</h2>
+<div class="creatures-section">
 
-| **Criatura** | **Tipo**  | **Ubicación**     | **Comportamiento**                                                                                                                                      |
-|---------------------|-----------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ajolote**         | Pasiva          | Biomas acuáticos (aguas subterráneas)       | No hostil, puede ser domesticado. Regenera su salud en el agua.                                                                                         |
-| **Aldeano**         | Pasiva          | Aldeas                                      | Realiza trabajos específicos según su profesión. Intercambia objetos con el jugador.                                                                  |
-| **Caballo**         | Pasiva          | Llanuras, biomas de pradera                 | Puede ser domesticado, usado como montura. Mejora sus características con trigo.                                                                       |
-| **Vaca**            | Pasiva          | Llanuras, biomas de pradera                 | Se puede ordeñar para obtener leche, criar con trigo, y obtener carne o cuero.                                                                         |
-| **Llama**           | Pasiva          | Montañas                                    | Se puede domesticar y usar para cargar cofres.                                                                                                        |
-| **Gato**            | Pasiva          | Aldeas                                      | Se puede domesticar. Protege de los Creepers y es amigable con el jugador.                                                                            |
-| **Pez tropical**    | Pasiva          | Océanos, arrecifes de coral                 | Nada tranquilamente. Puede ser capturado con una caña de pescar.                                                                                     |
-| **Cabra**           | Neutral         | Montañas                                    | Se vuelve hostil si se le provoca o amenaza.                                                                                                           |
-| **Delfín**          | Neutral         | Océanos                                     | Ayuda al jugador a nadar más rápido. Puede volverse agresivo si es atacado.                                                                           |
-| **Enderman**        | Neutral         | Biomas variados (bosques, desiertos, etc.)   | Normalmente pacífico, se vuelve hostil si se le mira a los ojos. Se teletransporta.                                                                  |
-| **Lobo**            | Neutral         | Bosques                                     | Se puede domesticar con huesos. Una vez domesticado, sigue al jugador y lo protege.                                                                  |
-| **Piglin**          | Neutral         | Nether                                      | Hostil si el jugador no lleva oro. Se puede comerciar con ellos si se lleva oro.                                                                     |
-| **Creeper**         | Hostil          | Diversos biomas                             | Se acerca sigilosamente y explota al acercarse al jugador.                                                                                            |
-| **Zombi**           | Hostil          | Biomas variados                             | Persigue y ataca al jugador, puede infectar con la plaga zombi.                                                                                       |
-| **Esqueleto**       | Hostil          | Biomas variados                             | Dispara flechas a distancia. Aparece en la noche o en cavernas.                                                                                      |
-| **Blaze**           | Hostil          | Nether (Fortalezas del Nether)              | Lanza bolas de fuego a distancia.                                                                                                                     |
-| **Ghast**           | Hostil          | Nether                                      | Vuela por el aire y dispara bolas de fuego.                                                                                                           |
-| **Warden**          | Hostil          | Bioma profundo (Deep Dark)                  | Ciego, pero extremadamente fuerte. Ataca al jugador basado en vibraciones y sonidos.                                                                 |
-| **Enderdragón**     | Jefe            | El End                                      | Jefe final del juego. Lanza bolas de energía y vuela por el mapa.                                                                                     |
-| **Wither**          | Jefe            | Invocado por el jugador en el Overworld     | Causa destrucción masiva con sus cabezas, lanzando proyectiles explosivos.                                                                            |
+  <div class="creature">
+    <img src="https://i.imgur.com/sHVyz5N.png" alt="Ajolote" class="creature-img">
+    <div class="creature-info">
+      <h3>Ajolote</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Biomas acuáticos (aguas subterráneas)</p>
+      <p><strong>Comportamiento:</strong> No hostil, puede ser domesticado. Regenera su salud en el agua.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/FS7LQNO.png" alt="Aldeano" class="creature-img">
+    <div class="creature-info">
+      <h3>Aldeano</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Aldeas</p>
+      <p><strong>Comportamiento:</strong> Realiza trabajos específicos según su profesión. Intercambia objetos con el jugador.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Caballo" class="creature-img">
+    <div class="creature-info">
+      <h3>Caballo</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Llanuras, biomas de pradera</p>
+      <p><strong>Comportamiento:</strong> Puede ser domesticado, usado como montura. Mejora sus características con trigo.</p>
+    </div>
+  </div> 
+  
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Vaca" class="creature-img">
+    <div class="creature-info">
+      <h3>Vaca</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Llanuras, biomas de pradera</p>
+      <p><strong>Comportamiento:</strong> Se puede ordeñar para obtener leche, criar con trigo, y obtener carne o cuero.</p>
+    </div>
+  </div> 
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Llama" class="creature-img">
+    <div class="creature-info">
+      <h3>Llama</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Llanuras, biomas de pradera</p>
+      <p><strong>Comportamiento:</strong> Se puede domesticar y usar para cargar cofres.</p>
+    </div>
+  </div> 
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Gato" class="creature-img">
+    <div class="creature-info">
+      <h3>Gato</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Aldeas</p>
+      <p><strong>Comportamiento:</strong> Se puede domesticar. Protege de los Creepers y es amigable con el jugador.</p>
+    </div>
+  </div> 
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Pez Tropical" class="creature-img">
+    <div class="creature-info">
+      <h3>Pez Tropical</h3>
+      <p><strong>Tipo:</strong> Pasiva</p>
+      <p><strong>Ubicación:</strong> Océanos, arrecifes de coral</p>
+      <p><strong>Comportamiento:</strong> Nada tranquilamente. Puede ser capturado con una caña de pescar.</p>
+    </div>
+  </div> 
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Cabra" class="creature-img">
+    <div class="creature-info">
+      <h3>Cabra</h3>
+      <p><strong>Tipo:</strong> Neutral</p>
+      <p><strong>Ubicación:</strong> Montañas</p>
+      <p><strong>Comportamiento:</strong> Se vuelve hostil si se le provoca o amenaza.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Delfín" class="creature-img">
+    <div class="creature-info">
+      <h3>Delfín</h3>
+      <p><strong>Tipo:</strong> Neutral</p>
+      <p><strong>Ubicación:</strong> Océanos</p>
+      <p><strong>Comportamiento:</strong> Ayuda al jugador a nadar más rápido. Puede volverse agresivo si es atacado.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Enderman" class="creature-img">
+    <div class="creature-info">
+      <h3>Enderman</h3>
+      <p><strong>Tipo:</strong> Neutral</p>
+      <p><strong>Ubicación:</strong> Biomas variados</p>
+      <p><strong>Comportamiento:</strong> Normalmente pacífico, se vuelve hostil si se le mira a los ojos. Se teletransporta.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Lobo" class="creature-img">
+    <div class="creature-info">
+      <h3>Lobo</h3>
+      <p><strong>Tipo:</strong> Neutral</p>
+      <p><strong>Ubicación:</strong> Bosques</p>
+      <p><strong>Comportamiento:</strong> Se puede domesticar con huesos. Una vez domesticado, sigue al jugador y lo protege.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Piglin" class="creature-img">
+    <div class="creature-info">
+      <h3>Piglin</h3>
+        <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Nether</p>
+      <p><strong>Comportamiento:</strong> Hostil si el jugador no lleva oro. Se puede comerciar con ellos si se lleva oro.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Creeper" class="creature-img">
+    <div class="creature-info">
+      <h3>Creeper</h3>
+      <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Biomas variados</p>
+      <p><strong>Comportamiento:</strong> Se acerca sigilosamente y explota al acercarse al jugador.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Zombi" class="creature-img">
+    <div class="creature-info">
+      <h3>Zombi</h3>
+      <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Biomas variados</p>
+      <p><strong>Comportamiento:</strong> Persigue y ataca al jugador.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Esqueleto" class="creature-img">
+    <div class="creature-info">
+      <h3>Esqueleto</h3>
+      <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Biomas variados</p>
+      <p><strong>Comportamiento:</strong> Dispara flechas a distancia. Aparece en la noche o en cavernas.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Blaze" class="creature-img">
+    <div class="creature-info">
+      <h3>Blaze</h3>
+      <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Nether (Fortalezas del Nether)</p>
+      <p><strong>Comportamiento:</strong> Lanza bolas de fuego a distancia.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Ghast" class="creature-img">
+    <div class="creature-info">
+      <h3>Ghast</h3>
+      <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Nether</p>
+      <p><strong>Comportamiento:</strong> Vuela por el aire y dispara bolas de fuego explosivas.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Warden" class="creature-img">
+    <div class="creature-info">
+      <h3>Warden</h3>
+      <p><strong>Tipo:</strong> Hostil</p>
+      <p><strong>Ubicación:</strong> Bioma profundo (Deep Dark)</p>
+      <p><strong>Comportamiento:</strong> Ciego, pero extremadamente fuerte. Ataca al jugador basado en vibraciones y sonidos.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Ender Dragón" class="creature-img">
+    <div class="creature-info">
+      <h3>Ender Dragón</h3>
+      <p><strong>Tipo:</strong> Jefe</p>
+      <p><strong>Ubicación:</strong> End</p>
+      <p><strong>Comportamiento:</strong> Jefe final del juego. Lanza bolas de energía y vuela por el mapa.</p>
+    </div>
+  </div>
+
+  <div class="creature">
+    <img src="https://i.imgur.com/WxT0D1p.png" alt="Wither" class="creature-img">
+    <div class="creature-info">
+      <h3>Wither</h3>
+      <p><strong>Tipo:</strong> Jefe</p>
+      <p><strong>Ubicación:</strong> Invocado por el jugador en el Overworld</p>
+      <p><strong>Comportamiento:</strong> Causa destrucción masiva con sus cabezas, lanzando proyectiles explosivos.</p>
+    </div>
+  </div>
 

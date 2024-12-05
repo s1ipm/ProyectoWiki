@@ -10,6 +10,8 @@ date: "2024-12-07"
 
 ***El Modo Espectador*** de ***Minecraft*** consiste en una modalidad de juego que permite a los ***jugadores*** que la utilicen explorar el mundo de ***Minecraft*** sin interactuar aunque se ofrece una perspectiva única de la cual pueden observar el mundo y los eventos sin ser afectados por las mecánicas del juego. Se introdujo en la versión 1.8 de ***Minecraft*** y está diseñado especialmente para esos ***jugadores*** que quieren explorarlo de forma libre, sin verse limitados por las reglas del modo supervivencia o las limitaciones del ***modo creativo***, es realmente útil para explorar, visualizar mapas creados por otras personas o para ver un mundo en general sin tener que estar en el mismo, participando.
 
+<img src="https://pm1.aminoapps.com/6130/01c012cc3eab07761ecb11f76b46fce7c61c81c1_00.jpg" alt="Modo Espectador">
+
 # Caractertísticas del Modo Espectador
 
 1. **Sin interacción con el mundo:**
@@ -26,6 +28,8 @@ Al igual que en el ***Modo Creativo***, el ***modo Espectador*** no permite sufr
 
 5. **Transparencia de entidades:**
 En este modo, el ***jugador*** puede observar las entidades ***(mobs y jugadores)*** en la cercanía sin hacerse detectado por estas o afectado a consecuencia de ellas. Esto se debe a que el ***jugador*** se encuentra completamente invisible para los mobs y no es golpeado. Los ***jugadores*** que atraviesan el Modo Espectador también pueden observar lo que otro ***jugador*** está haciendo, lo que puede ser útil para los que son meros observadores o para aquellos que están grabando contenido. 
+
+<img src="https://preview.redd.it/xrrj2p84kbq31.jpg?auto=webp&s=e441aaed2646cd9844f15287c9997da7ec87bff7" alt="Modo Espectador Creeper">
 
 # Funciones del Modo Espectador
 
@@ -47,6 +51,8 @@ Los ***jugadores*** interesados en obtener una opinión completamente válida de
 Los administradores de servidores y los moderadores de servidor también pueden sacar partido del ***Modo Espectador*** dado que les permite observar a los ***jugadores*** sin ser detectados. Esto es útil para observar la presencia de trampas y para resolver dilemas técnicos, o simplemente para validar que los ***jugadores*** cumplen con las reglas del servidor en cuestión. Siendo invisibles para los ***jugadores***, los moderadores pueden intervenir si es preciso sin alterar el juego en desarrollo. 
 
 Este ***modo de juego*** puede contemplar la existencia del mundo en bruto a través de la visión pura, sin afectaciones y sin limitaciones, y puede alcanzar una vista global de una parte tras su haber actuado en los otros modos. Lo que el jugador puede ver es también la posibilidad de transitar el espacio entre biomas para asistir a cómo distintas ecosistemas, estructuras o áreas del mapa con los que se relaciona. 
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7F9H4qhuzhHk47NxZPqDbqyWbro2bbP3ZWY-3Bp5f4bJcFWWOFrvf2T3peGfM8h2hISR121hBxnQtxKBKbkfi1Ex4Qt4FVCWtZeHn36CnUsSKaSGy1feIgPtkq9cYuTZb3zyZ2BHDhOw/s1600/2014-01-31_13.56.43.png" alt="Modo Espectador">
 
 # Comparación de otros modos de juego
 

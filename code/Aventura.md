@@ -12,7 +12,7 @@ El ***Modo Aventura*** de ***Minecraft*** es en este sentido una modalidad de ju
 
 ## Características 
 
-1.  **Interacción con bloques y objetos:**
+1. **Interacción con bloques y objetos:**
 Una de las diferencias fundamentales el ***Modo Aventura*** respecto a otros modos de juego es que los jugadores no pueden destruir, ni colocar bloques libremente como sucede cuando se juega en el ***modo Supervivencia***. La interacción con los bloques queda restringida a unas determinadas herramientas o acciones, las cuales se encuentran definidas por el creador del mapa. Por ejemplo, los bloques de piedra sólo se pueden destruir si el ***jugador*** utiliza una pico de hierro o superior, mientras que otros tipos de bloques son indestructibles.
 
 2. **Herramientas y objetos específicos:**
@@ -30,6 +30,8 @@ El ***Modo Aventura*** en ***Minecraft*** es una opción de juego bastante disti
 
 El ***Modo Aventura*** se diferencia de los demás modos principalmente en la poca capacidad de los jugadores para interactuar con los bloques, tal y como se ha citado, pero también con elementos narrativos que el creador de mapas pueda añadir como diálogos, historias o misiones. Los jugadores suelen estar restringidos en la capacidad de destrozar bloques, por lo cual el objetivo va más hacia la exploración y la resolución de enigmas que en crear y destruir de manera libre. 
 Cuando cuando un jugador entra en un mundo en ***Modo Aventura***, este mundo suele tener un diseño que lleva a que el jugador realice tareas específicas dentro de un contexto más restringido y determinado, o que incluya la resolución de rompecabezas, la búsqueda de objetos y la lucha contra enemigos. El creador del mapa puede hacer uso del sistema de comandos de Minecraft para diseñar mecánicas de juegos particulares y reglas especiales, y confeccionar aventuras particulares y altamente interactivas.
+
+<img src=" https://i.ytimg.com/vi/5FlxrkI0X6M/maxresdefault.jpg" alt="Modo Aventura">
 
 ## Puntos clave para su uso
 

@@ -12,6 +12,8 @@ La alquimia en ***Minecraft*** es un sistema asombroso, mediante el cual se pued
 
 La alquimia en ***Minecraft*** es una mecánica rica y variada que permite a los jugadores experimentar con diferentes ingredientes para crear pociones con efectos mágicos. Usando cajas de pociones, los jugadores pueden explorar un mundo de posibilidades y usar los efectos de las pociones para sobrevivir a las situaciones más difíciles, derrotar enemigos o simplemente mejorar su rendimiento en el juego. Al agregar ingredientes como verruga inferior, polvo de fuego y pólvora, ***Minecraft*** ofrece una experiencia de alquimia única que sigue siendo esencial para los jugadores que desean dominar el arte de hacer pociones.
 
+<img src="https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/8/89/Alquimia.png" alt="Wither">
+
 ### Soporte para pociones
 
 La herramienta primordial para el proceso de la alquimia es el soporte para pociones para añadir ingredientes a los frascos de agua y transformarlos en pociones que pueden tener tanto efectos buenos como negativos. Para utilizar el soporte para pociones hay que introducir en los espacios de la izquierda de la interfaz (GUI) del soporte para pociones tres frascos de agua (o pociones existentes), un ingrediente en el espacio del medio y por último polvo de blaze en el espacio de la derecha a modo de combustible.
@@ -27,39 +29,67 @@ _Espacio para el polvo de blaze:_ Este es el combustible necesario para activar 
 
 Una vez que los ingredientes correctos están colocados, el soporte para pociones empieza a elaborar la poción y, después de un tiempo determinado, la poción estará lista para ser utilizada.
 
-## Materiales
+<img src="https://i.blogs.es/14c4c3/soporte-pociones-minecraft/450_1000.jpeg" alt="Wither">
 
-La alquimia en ***Minecraft*** requiere diferentes materiales, los cuales deben obtenerse de diferentes maneras en el mundo del juego. A continuación presentamos los materiales más comunes y sus usos:
+<h2>Materiales</h2>
+<div class="materials-section">
 
-1. Soporte de Pociones:
-El soporte de pociones es el núcleo del proceso de alquimia. Para hacer esto, necesitarás la Vara de Fuego, que puedes obtener de las llamas de la fortaleza. Este proyecto te permite convertir agua embotellada en una poción agregando ingredientes.
+<h3>Soporte de Pociones</h3>
+      <p>El soporte de pociones es el núcleo del proceso de alquimia. Para hacerlo, necesitarás una Vara de Blaze, obtenida de las Llamas en las fortalezas. Permite convertir agua embotellada en pociones agregando ingredientes.</p>
+    </div>
+  </div>
 
-2. Polvo de Blaze:
-El polvo de llama es un material importante para el funcionamiento del botiquín. Se puede obtener derrotando a la Llama en la Fortaleza. Este polvo se coloca en recipientes de pociones para que sirvan como combustible, similar al carbón en un horno.
+  <div class="material">
+    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7c/Blaze_Powder_JE2_BE1.png" alt="Polvo de Blaze" class="material-img">
+    <div class="material-info">
+      <h3>Polvo de Blaze</h3>
+      <p>El polvo de Blaze es un material importante para el funcionamiento del soporte de pociones. Se obtiene derrotando a las Llamas en las fortalezas. Este polvo se coloca en los soportes para pociones y sirve como combustible.</p>
+    </div>
+  </div>
 
-3. Frasco de vidrio y frasco de agua:
-El frasco de cristal es un contenedor básico en el que se puede almacenar cualquier poción preparada. Para hacer una botella de agua, simplemente llena un frasco con tetera o agua y te servirá como base para tu bebida.
+  <div class="material">
+    <img src="https://minecraft.wiki/images/Glass_Bottle_JE2_BE2.png?4b45e" alt="Frasco de Vidrio" class="material-img">
+    <div class="material-info">
+      <h3>Frasco de Vidrio y Frasco de Agua</h3>
+      <p>El frasco de vidrio es un contenedor básico para pociones. Llénalo con agua para crear un frasco de agua, que actúa como base para preparar pociones.</p>
+    </div>
+  </div>
 
-4. Verruga del Nether:
-La verruga del Nether es el ingrediente base para crear la mayoría de las pociones en ***Minecraft***. Este ingrediente se coloca en el soporte para pociones junto con el frasco de agua, y es el primer paso en el proceso de elaboración de muchas pociones.
+  <div class="material">
+    <img src="https://cdn.apexminecrafthosting.com/img/uploads/2023/05/22173621/nether-wart-item.png" alt="Verruga del Nether" class="material-img">
+    <div class="material-info">
+      <h3>Verruga del Nether</h3>
+      <p>Ingrediente base para crear la mayoría de las pociones en <strong>Minecraft</strong>. Se coloca en el soporte junto con un frasco de agua como primer paso para elaborar pociones.</p>
+    </div>
+  </div>
 
-5. Ojo de Araña Fermentado:
-El ojo de araña fermentado es un ingrediente clave para la creación de pociones de debilidad. Se obtiene mediante la fermentación de un ojo de araña normal con azúcar y un hongo. Es fundamental para crear pociones que se utilizan en la cura de zombis o en la creación de pociones más avanzadas.
+  <div class="material">
+    <img src="https://minecraft.wiki/images/Fermented_Spider_Eye_JE2_BE2.png?ad046" alt="Ojo de Araña Fermentado" class="material-img">
+    <div class="material-info">
+      <h3>Ojo de Araña Fermentado</h3>
+      <p>Clave para crear pociones de debilidad. Se elabora fermentando un ojo de araña normal con azúcar y un hongo. Útil para curar zombis o crear pociones avanzadas.</p>
+    </div>
+  </div>
 
-6. Otros Ingredientes Secundarios:
-Existen una gran variedad de ingredientes secundarios que alteran los efectos de las pociones de diversas maneras. Algunos de los más importantes son:
+<div>
+    <h3>Otros Ingredientes Secundarios</h3>
+      <ul>
+        <li><strong>Crema de Magma:</strong> Resistencia al fuego.</li>
+        <li><strong>Azúcar:</strong> Poción de velocidad.</li>
+        <li><strong>Rodaja de Sandía Reluciente:</strong> Curación instantánea.</li>
+        <li><strong>Lágrima de Ghast:</strong> Regeneración de salud.</li>
+        <li><strong>Pólvora:</strong> Convierte pociones en arrojadizas.</li>
+      </ul>
+    </div>
 
-- Crema de Magma: Otorga la poción de resistencia al fuego, que otorga inmunidad al daño por fuego y lava.
-- Azúcar: Se utiliza para hacer la poción de velocidad, que aumenta la velocidad de movimiento.
-- Rodaja de Sandía Reluciente: Se usa para crear pociones de curación instantánea.
-- Lágrima de Ghast: Este ingrediente se usa para crear pociones de regeneración, las cuales restauran salud a lo largo del tiempo.
-- Pólvora: Esta es un modificador que convierte una poción en una poción arrojadiza, permitiendo lanzarlas como proyectiles.
-
-7. Modificadores
-Los modificadores alteran el tiempo o la potencia de las pociones. Entre los más comunes se encuentran:
-
-- Polvo de Redstone: Aumenta la duración de una poción.
-- Polvo de Piedra Luminosa: Aumenta la potencia de la poción.
-- Pólvora: Convierte la poción en una poción arrojadiza que puede ser lanzada.
-- Aliento de Dragón: Se utiliza para convertir una poción en una poción persistente, lo que permite que el efecto de la poción perdure por un tiempo largo.
-
+  <div>
+      <h3>Modificadores</h3>
+      <ul>
+        <li><strong>Polvo de Redstone:</strong> Aumenta la duración.</li>
+        <li><strong>Polvo de Piedra Luminosa:</strong> Aumenta la potencia.</li>
+        <li><strong>Pólvora:</strong> Poción arrojadiza.</li>
+        <li><strong>Aliento de Dragón:</strong> Convierte pociones en persistentes.</li>
+      </ul>
+    </div>
+  </div>
+</div>

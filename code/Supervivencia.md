@@ -12,6 +12,8 @@ El ***Modo Supervivencia*** es uno de los modos que podemos decir que son de alg
 
 En este modo, el ***jugador*** tiene un propósito claro; sobrevivir a la vez que recorre el mundo y se va aprovechando de él para avanzar. El Modo Supervivencia es para todos aquellos que no quieren una experiencia demasiado interesante pero tampoco demasiado difícil. En el Modo Supervivencia todos podemos disfrutar de Minecraft. 
 
+<img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CvS-S-hostile.jpeg" alt="Modo Supervivencia">
+
 ## Características del Modo Supervivencia
 
 1. La Salud y el Hambre:
@@ -28,16 +30,48 @@ Este modo permite a los ***jugadores*** avanzar a través de distintas etapas de
 5. Reaparición En el Modo Supervivencia:
 Si el ***jugador muere***, reaparece en el último punto de reaparición realizado, generalmente es en una cama (si se ha dormido en una cama) o en el punto de inicio del mundo si no ha guardado ningún punto de reaparición. 
 
-## Diferencias entre Java y Bedrock
-
-| **Aspecto**                     | **Java Edition**                                                                 | **Bedrock Edition**                                                               |
-|----------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Sistema de Combate**           | Introduce la mecánica de "cooldown" (enfriamiento), donde los jugadores deben esperar entre ataques. | El combate es más rápido y fluido, sin la mecánica de "cooldown".                |
-| **Generación de Mundos**         | Mayor variedad de biomas y estructuras, con terrenos más altos y montañosos.     | Generación de mundos más estable y controlada, con biomas que pueden aparecer con menos frecuencia. |
-| **Redstone y Mecánicas de Construcción** | Comportamiento más preciso del Redstone, permitiendo construcciones más complejas. | Algunas mecánicas de Redstone no funcionan igual, lo que limita la complejidad de las máquinas. |
-| **Multijugador y Servidores**   | Amplio soporte para servidores privados y personalización avanzada con plugins y mods. | Menos opciones de personalización, pero permite la conexión cruzada entre plataformas (PC, consolas, móviles). |
-| **Actualizaciones y Compatibilidad** | Las actualizaciones suelen llegar primero a Java y algunas características son exclusivas por un tiempo. | Las actualizaciones son consistentes a través de plataformas, pero a veces se retrasan o varían según la plataforma. |
-| **Sonidos y Efectos Visuales**  | Efectos visuales y sonidos más personalizables, con opciones a través de mods.    | Sonidos y efectos visuales estandarizados, con algunas diferencias entre plataformas. |
+<h2>Diferencias entre Java y Bedrock</h2>
+<table class="styled-table">
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Java Edition</th>
+      <th>Bedrock Edition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sistema de Combate</td>
+      <td>Introduce la mecánica de "cooldown" (enfriamiento), donde los jugadores deben esperar entre ataques.</td>
+      <td>El combate es más rápido y fluido, sin la mecánica de "cooldown".</td>
+    </tr>
+    <tr>
+      <td>Generación de Mundos</td>
+      <td>Mayor variedad de biomas y estructuras, con terrenos más altos y montañosos.</td>
+      <td>Generación de mundos más estable y controlada, con biomas que pueden aparecer con menos frecuencia.</td>
+    </tr>
+    <tr>
+      <td>Redstone y Mecánicas de Construcción</td>
+      <td>Comportamiento más preciso del Redstone, permitiendo construcciones más complejas.</td>
+      <td>Algunas mecánicas de Redstone no funcionan igual, lo que limita la complejidad de las máquinas.</td>
+    </tr>
+    <tr>
+      <td>Multijugador y Servidores</td>
+      <td>Amplio soporte para servidores privados y personalización avanzada con plugins y mods.</td>
+      <td>Menos opciones de personalización, pero permite la conexión cruzada entre plataformas (PC, consolas, móviles).</td>
+    </tr>
+    <tr>
+      <td>Actualizaciones y Compatibilidad</td>
+      <td>Las actualizaciones suelen llegar primero a Java y algunas características son exclusivas por un tiempo.</td>
+      <td>Las actualizaciones son consistentes a través de plataformas, pero a veces se retrasan o varían según la plataforma.</td>
+    </tr>
+    <tr>
+      <td>Sonidos y Efectos Visuales</td>
+      <td>Efectos visuales y sonidos más personalizables, con opciones a través de mods.</td>
+      <td>Sonidos y efectos visuales estandarizados, con algunas diferencias entre plataformas.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 Aunque el ***Modo Supervivencia*** en ***Minecraft*** funciona de manera muy similar en las versiones Java y Bedrock, existen algunas diferencias clave que varían entre ambas versiones. Estas diferencias incluyen aspectos como el combate, las mecánicas de redstone, la generación de mundos y algunas características técnicas.
