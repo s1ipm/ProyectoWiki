@@ -11,6 +11,3 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "code",
       output: "docs",
-    },
-  };
-};
