@@ -231,6 +231,10 @@ max-width: 100%;
   .styled-table tbody tr:hover {
     background-color: #045730;
   }
+
+  #searchResults {
+    display: block !important;
+  }
   
   @media (max-width: 768px) {
     .navbar-toggler {

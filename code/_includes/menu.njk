@@ -89,66 +89,67 @@
 
 <script>
   const pages = {
-    "inicio": "/ProyectoWiki/",
-    "acerca": "/ProyectoWiki/acerca/",
-    "artículos": "/ProyectoWiki/articulos/",
-    "ediciones": "/ProyectoWiki/Ediciones/",
-    "versiones": "/ProyectoWiki/Ediciones/",
-    "biomas": "/ProyectoWiki/Biomas/",
-    "redstone": "/ProyectoWiki/Redstone/",
-    "mecanismo": "/ProyectoWiki/Redstone/",
-    "criaturas": "/ProyectoWiki/articulos/criaturas/",
-    "fabricación": "/ProyectoWiki/Fabricación/",
-    "mesa": "/ProyectoWiki/Fabricación/",
-    "crafteo": "/ProyectoWiki/Fabricación/",
-    "alquimia": "/ProyectoWiki/Alquimia/",
-    "aventura": "/ProyectoWiki/Aventura/",
-    "comercio": "/ProyectoWiki/Comercio/",
-    "creativo": "/ProyectoWiki/creativo/",
-    "dimensionend": "/ProyectoWiki/DimensionEND/",
-    "end": "/ProyectoWiki/DimensionEND/",
-    "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
-    "nether": "/ProyectoWiki/DimensionNETHER/",
-    "encantamientos": "/ProyectoWiki/Encantamientos/",
-    "espectador": "/ProyectoWiki/Espectador/",
-    "extremo": "/ProyectoWiki/Extremo/",
-    "hardcore": "/ProyectoWiki/Extremo/",
-    "introduccion": "/ProyectoWiki/Introduccion/",
-    "jugabilidad": "/ProyectoWiki/Jugabilidad/",
-    "jugador": "/ProyectoWiki/Jugador/",
-    "mineria": "/ProyectoWiki/Minería/",
-    "pociones": "/ProyectoWiki/Pociones/",
-    "supervivencia": "/ProyectoWiki/Supervivencia/"
-  };
+  "inicio": "/ProyectoWiki/",
+  "acerca": "/ProyectoWiki/acerca/",
+  "artículos": "/ProyectoWiki/articulos/",
+  "ediciones": "/ProyectoWiki/Ediciones/",
+  "versiones": "/ProyectoWiki/Ediciones/",
+  "biomas": "/ProyectoWiki/Biomas/",
+  "redstone": "/ProyectoWiki/Redstone/",
+  "mecanismo": "/ProyectoWiki/Redstone/",
+  "criaturas": "/ProyectoWiki/articulos/criaturas/",
+  "fabricación": "/ProyectoWiki/Fabricación/",
+  "mesa": "/ProyectoWiki/Fabricación/",
+  "crafteo": "/ProyectoWiki/Fabricación/",
+  "alquimia": "/ProyectoWiki/Alquimia/",
+  "aventura": "/ProyectoWiki/Aventura/",
+  "comercio": "/ProyectoWiki/Comercio/",
+  "creativo": "/ProyectoWiki/creativo/",
+  "dimensionend": "/ProyectoWiki/DimensionEND/",
+  "end": "/ProyectoWiki/DimensionEND/",
+  "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
+  "nether": "/ProyectoWiki/DimensionNETHER/",
+  "encantamientos": "/ProyectoWiki/Encantamientos/",
+  "espectador": "/ProyectoWiki/Espectador/",
+  "extremo": "/ProyectoWiki/Extremo/",
+  "hardcore": "/ProyectoWiki/Extremo/",
+  "introduccion": "/ProyectoWiki/Introduccion/",
+  "jugabilidad": "/ProyectoWiki/Jugabilidad/",
+  "jugador": "/ProyectoWiki/Jugador/",
+  "mineria": "/ProyectoWiki/Minería/",
+  "pociones": "/ProyectoWiki/Pociones/",
+  "supervivencia": "/ProyectoWiki/Supervivencia/"
+};
 
-  const searchInput = document.getElementById('searchInput');
-  const searchResults = document.getElementById('searchResults');
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
 
-  searchInput.addEventListener('input', function () {
-    const query = searchInput.value.toLowerCase();
-    searchResults.innerHTML = ''; // Limpiar los resultados previos
-    if (query.length > 0) {
-      // Filtrar las páginas según la consulta
-      const filteredPages = Object.keys(pages).filter(page => page.toLowerCase().includes(query));
+searchInput.addEventListener('input', function () {
+  const query = searchInput.value.toLowerCase();
+  console.log("Busqueda:", query);
+  searchResults.innerHTML = '';
+  if (query.length > 0) {
+    const filteredPages = Object.keys(pages).filter(page => page.toLowerCase().includes(query));
 
-      if (filteredPages.length > 0) {
-        searchResults.style.display = 'block'; // Mostrar los resultados
-        filteredPages.forEach(page => {
-          const resultItem = document.createElement('div');
-          resultItem.classList.add('search-result-item');
-          resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
-          resultItem.addEventListener('click', () => {
-            window.location.href = pages[page]; // Redirigir al usuario a la página seleccionada
-          });
-          searchResults.appendChild(resultItem);
+    if (filteredPages.length > 0) {
+      searchResults.style.display = 'block';
+      filteredPages.forEach(page => {
+        const resultItem = document.createElement('div');
+        resultItem.classList.add('search-result-item');
+        resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
+        resultItem.addEventListener('click', () => {
+          window.location.href = pages[page];
         });
-      } else {
-        searchResults.style.display = 'none'; // Ocultar si no hay resultados
-      }
+        searchResults.appendChild(resultItem);
+      });
     } else {
-      searchResults.style.display = 'none'; // Ocultar si el input está vacío
+      searchResults.style.display = 'none';
     }
-  });
+  } else {
+    searchResults.style.display = 'none';
+  }
+});
+
 </script>
 
 </body>
