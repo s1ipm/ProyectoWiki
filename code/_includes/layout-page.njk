@@ -31,30 +31,38 @@
     event.preventDefault();
     const query = document.getElementById('searchInput').value.toLowerCase();
     const pages = {
-      "inicio": "/index.html",
-      "acerca": "/acerca/index.html",
-      "artículos": "/articulos/index.html",
-      "ediciones": "/ediciones/index.html",
-      "biomas": "/biomas/index.html",
-      "redstone": "/redstone/index.html",
-      "criaturas": "/articulos/criaturas.html",
-      "fabricación": "/fabricacion/index.html",
-      "alquimia": "/alquimia/index.html",
-      "aventura": "/aventura/index.html",
-      "comercio": "/comercio/index.html",
-      "creativo": "/creativo/index.html",
-      "dimensionend": "/dimensionend/index.html",
-      "dimensionnether": "/dimensionnether/index.html",
-      "encantamientos": "/encantamientos/index.html",
-      "espectador": "/espectador/index.html",
-      "extremo": "/extremo/index.html",
-      "introduccion": "/introduccion/index.html",
-      "jugabilidad": "/jugabilidad/index.html",
-      "jugador": "/jugador/index.html",
-      "mineria": "/mineria/index.html",
-      "pociones": "/pociones/index.html",
-      "supervivencia": "/supervivencia/index.html"
+      "inicio": "/",
+      "acerca": "/acerca/",
+      "artículos": "/articulos/",
+      "ediciones": "/Ediciones/",
+      "biomas": "/Biomas/",
+      "redstone": "/Redstone/",
+      "criaturas": "/articulos/criaturas/",
+      "fabricación": "/Fabricación/",
+      "alquimia": "/Alquimia/",
+      "aventura": "/Aventura/",
+      "comercio": "/Comercio/",
+      "creativo": "/creativo/",
+      "dimensionend": "/DimensionEND/",
+      "dimensionnether": "/DimensionNETHER/",
+      "encantamientos": "/Encantamientos/",
+      "espectador": "/Espectador/",
+      "extremo": "/Extremo/",
+      "introduccion": "/Introduccion/",
+      "jugabilidad": "/Jugabilidad/",
+      "jugador": "/Jugador/",
+      "mineria": "/Mineria/",
+      "pociones": "/pociones/",
+      "supervivencia": "/supervivencia/"
     };
+
+    if (pages[query]) {
+      window.location.href = pages[query];
+    } else {
+      alert("No se encontraron resultados.");
+    }
+  });
+</script>
 
     if (pages[query]) {
       window.location.href = pages[query];
