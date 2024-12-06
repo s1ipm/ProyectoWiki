@@ -104,97 +104,69 @@
     </body></div>
   </nav>
 
-  <script>
-    const pages = {
-      "inicio": "/ProyectoWiki/",
-      "acerca": "/ProyectoWiki/acerca/",
-      "artículos": "/ProyectoWiki/articulos/",
-      "ediciones": "/ProyectoWiki/Ediciones/",
-      "Ediciones": "/ProyectoWiki/Ediciones/",
-      "versiones": "/ProyectoWiki/Ediciones/",
-      "Versiones": "/ProyectoWiki/Ediciones/",
-      "versiones": "/ProyectoWiki/Ediciones/",
-      "biomas": "/ProyectoWiki/Biomas/",
-      "Biomas": "/ProyectoWiki/Biomas/",
-      "redstone": "/ProyectoWiki/Redstone/",
-      "redstone": "/ProyectoWiki/Redstone/",
-      "Mecanismo": "/ProyectoWiki/Redstone/",
-      "mecanismo": "/ProyectoWiki/Redstone/",
-      "criaturas": "/ProyectoWiki/articulos/criaturas/",
-      "Criaturas": "/ProyectoWiki/articulos/criaturas/",
-      "fabricación": "/ProyectoWiki/Fabricación/",
-      "fabricacion": "/ProyectoWiki/Fabricación/",
-      "Fabricación": "/ProyectoWiki/Fabricación/",
-      "Fabricacion": "/ProyectoWiki/Fabricación/",
-      "mesa": "/ProyectoWiki/Fabricación/",
-      "Mesa": "/ProyectoWiki/Fabricación/",
-      "crafteo": "/ProyectoWiki/Fabricación/",
-      "Crafteo": "/ProyectoWiki/Fabricación/",
-      "alquimia": "/ProyectoWiki/Alquimia/",
-      "Alquimia": "/ProyectoWiki/Alquimia/",
-      "aventura": "/ProyectoWiki/Aventura/",
-      "Aventura": "/ProyectoWiki/Aventura/",
-      "comercio": "/ProyectoWiki/Comercio/",
-      "Comercio": "/ProyectoWiki/Comercio/",
-      "creativo": "/ProyectoWiki/creativo/",
-      "Creativo": "/ProyectoWiki/creativo/",
-      "dimensionend": "/ProyectoWiki/DimensionEND/",
-      "Dimensionend": "/ProyectoWiki/DimensionEND/",
-      "end": "/ProyectoWiki/DimensionEND/",
-      "END": "/ProyectoWiki/DimensionEND/",
-      "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
-      "nether": "/ProyectoWiki/DimensionNETHER/",
-      "NETHER": "/ProyectoWiki/DimensionNETHER/",
-      "encantamientos": "/ProyectoWiki/Encantamientos/",
-      "Encantamientos": "/ProyectoWiki/Encantamientos/",
-      "espectador": "/ProyectoWiki/Espectador/",
-      "Espectador": "/ProyectoWiki/Espectador/",
-      "extremo": "/ProyectoWiki/Extremo/",
-      "Extremo": "/ProyectoWiki/Extremo/",
-      "Hardcore": "/ProyectoWiki/Extremo/",
-      "introduccion": "/ProyectoWiki/Introduccion/",
-      "jugabilidad": "/ProyectoWiki/Jugabilidad/",
-      "Jugabilidad": "/ProyectoWiki/Jugabilidad/",
-      "jugador": "/ProyectoWiki/Jugador/",
-      "Jugador": "/ProyectoWiki/Jugador/",
-      "mineria": "/ProyectoWiki/Minería/",
-      "Mineria": "/ProyectoWiki/Minería/",
-      "Minería": "/ProyectoWiki/Minería/",
-      "minería": "/ProyectoWiki/Minería/",
-      "pociones": "/ProyectoWiki/Pociones/",
-      "Pociones": "/ProyectoWiki/Pociones/",
-      "supervivencia": "/ProyectoWiki/Supervivencia/"
-      "Supervivencia": "/ProyectoWiki/Supervivencia/"
-    };
+<script>
+  const pages = {
+    "inicio": "/ProyectoWiki/",
+    "acerca": "/ProyectoWiki/acerca/",
+    "artículos": "/ProyectoWiki/articulos/",
+    "ediciones": "/ProyectoWiki/Ediciones/",
+    "versiones": "/ProyectoWiki/Ediciones/",
+    "biomas": "/ProyectoWiki/Biomas/",
+    "redstone": "/ProyectoWiki/Redstone/",
+    "mecanismo": "/ProyectoWiki/Redstone/",
+    "criaturas": "/ProyectoWiki/articulos/criaturas/",
+    "fabricación": "/ProyectoWiki/Fabricación/",
+    "mesa": "/ProyectoWiki/Fabricación/",
+    "crafteo": "/ProyectoWiki/Fabricación/",
+    "alquimia": "/ProyectoWiki/Alquimia/",
+    "aventura": "/ProyectoWiki/Aventura/",
+    "comercio": "/ProyectoWiki/Comercio/",
+    "creativo": "/ProyectoWiki/creativo/",
+    "dimensionend": "/ProyectoWiki/DimensionEND/",
+    "end": "/ProyectoWiki/DimensionEND/",
+    "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
+    "nether": "/ProyectoWiki/DimensionNETHER/",
+    "encantamientos": "/ProyectoWiki/Encantamientos/",
+    "espectador": "/ProyectoWiki/Espectador/",
+    "extremo": "/ProyectoWiki/Extremo/",
+    "hardcore": "/ProyectoWiki/Extremo/",
+    "introduccion": "/ProyectoWiki/Introduccion/",
+    "jugabilidad": "/ProyectoWiki/Jugabilidad/",
+    "jugador": "/ProyectoWiki/Jugador/",
+    "mineria": "/ProyectoWiki/Minería/",
+    "pociones": "/ProyectoWiki/Pociones/",
+    "supervivencia": "/ProyectoWiki/Supervivencia/"
+  };
 
-    const searchInput = document.getElementById('searchInput');
-    const searchResults = document.getElementById('searchResults');
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
 
-    searchInput.addEventListener('input', function () {
-      const query = searchInput.value.toLowerCase();
-      searchResults.innerHTML = '';
-      if (query.length > 0) {
-        const filteredPages = Object.keys(pages).filter(page => page.includes(query));
+  searchInput.addEventListener('input', function () {
+    const query = searchInput.value.toLowerCase();
+    searchResults.innerHTML = ''; // Limpiar los resultados previos
+    if (query.length > 0) {
+      // Filtrar las páginas según la consulta
+      const filteredPages = Object.keys(pages).filter(page => page.toLowerCase().includes(query));
 
-        if (filteredPages.length > 0) {
-          searchResults.style.display = 'block';
-          filteredPages.forEach(page => {
-            const resultItem = document.createElement('div');
-            resultItem.classList.add('search-result-item');
-            resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
-            resultItem.addEventListener('click', () => {
-              window.location.href = pages[page];
-            });
-            searchResults.appendChild(resultItem);
+      if (filteredPages.length > 0) {
+        searchResults.style.display = 'block'; // Mostrar los resultados
+        filteredPages.forEach(page => {
+          const resultItem = document.createElement('div');
+          resultItem.classList.add('search-result-item');
+          resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
+          resultItem.addEventListener('click', () => {
+            window.location.href = pages[page]; // Redirigir al usuario a la página seleccionada
           });
-        } else {
-          searchResults.style.display = 'none';
-        }
+          searchResults.appendChild(resultItem);
+        });
       } else {
-        searchResults.style.display = 'none';
+        searchResults.style.display = 'none'; // Ocultar si no hay resultados
       }
-    });
-  </script>
+    } else {
+      searchResults.style.display = 'none'; // Ocultar si el input está vacío
+    }
+  });
+</script>
 
 </header></body>
 </html>
