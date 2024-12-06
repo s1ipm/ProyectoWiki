@@ -26,52 +26,38 @@
   {% include "footer.njk" %}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" ></script>
 
-<script>
-  document.getElementById('searchForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-    const query = document.getElementById('searchInput').value.toLowerCase();
-    const pages = {
-      "inicio": "/",
-      "acerca": "/acerca/",
-      "artículos": "/articulos/",
-      "ediciones": "/Ediciones/",
-      "versiones": "/Ediciones/",
-      "biomas": "/Biomas/",
-      "redstone": "/Redstone/",
-      "criaturas": "/articulos/criaturas/",
-      "fabricación": "/Fabricación/",
-      "mesa": "/Fabricación/",
-      "alquimia": "/Alquimia/",
-      "aventura": "/Aventura/",
-      "comercio": "/Comercio/",
-      "creativo": "/creativo/",
-      "dimensionend": "/DimensionEND/",
-      "end": "/DimensionEND/",
-      "dimensionnether": "/DimensionNETHER/",
-      "nether": "/DimensionNETHER/",
-      "encantamientos": "/Encantamientos/",
-      "espectador": "/Espectador/",
-      "extremo": "/Extremo/",
-      "introduccion": "/Introduccion/",
-      "jugabilidad": "/Jugabilidad/",
-      "jugador": "/Jugador/",
-      "mineria": "/Minería/",
-      "pociones": "/Pociones/",
-      "supervivencia": "/Supervivencia/"
-    };
+<<script>
+  const pages = {
+    "inicio": "/",
+    "acerca": "/acerca/",
+    "artículos": "/articulos/"
+  };
 
-    if (pages[query]) {
-      window.location.href = pages[query];
-    } else {
-      alert("No se encontraron resultados.");
-    }
-  });
-</script>
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
 
-    if (pages[query]) {
-      window.location.href = pages[query];
+  searchInput.addEventListener('input', function () {
+    const query = searchInput.value.toLowerCase();
+    searchResults.innerHTML = '';
+    if (query.length > 0) {
+      const filteredPages = Object.keys(pages).filter(page => page.includes(query));
+
+      if (filteredPages.length > 0) {
+        searchResults.style.display = 'block';
+        filteredPages.forEach(page => {
+          const resultItem = document.createElement('div');
+          resultItem.classList.add('search-result-item');
+          resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
+          resultItem.addEventListener('click', () => {
+            window.location.href = pages[page];
+          });
+          searchResults.appendChild(resultItem);
+        });
+      } else {
+        searchResults.style.display = 'none';
+      }
     } else {
-      alert("No se encontraron resultados.");
+      searchResults.style.display = 'none';
     }
   });
 </script>

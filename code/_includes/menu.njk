@@ -1,65 +1,120 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar">
   <div class="container-fluid justify-content-center">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav d-flex justify-content-center">
         <li class="nav-item me-3">
-          <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+          <a class="nav-link" href="/">Inicio</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link fs-5" href="/acerca">Acerca</a>
+          <a class="nav-link" href="/acerca">Acerca</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link fs-5" href="/articulos">Artículos</a>
+          <a class="nav-link" href="/articulos">Artículos</a>
         </li>
       </ul>
     </div>
 
-    <form class="d-flex" id="searchForm">
-      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
-      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
+    <form class="search-form" id="searchForm">
+      <input class="search-input" type="search" placeholder="Buscar..." aria-label="Buscar" id="searchInput" autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
     </form>
   </div>
 </nav>
 
-<script>
-  document.getElementById('searchForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-    const query = document.getElementById('searchInput').value.toLowerCase();
-    const pages = {
-      "inicio": "/ProyectoWiki/",
-      "acerca": "/ProyectoWiki/acerca/",
-      "artículos": "/ProyectoWiki/articulos/",
-      "ediciones": "/ProyectoWiki/Ediciones/",
-      "versiones": "/ProyectoWiki/Ediciones/",
-      "biomas": "/ProyectoWiki/Biomas/",
-      "redstone": "/ProyectoWiki/Redstone/",
-      "criaturas": "/ProyectoWiki/articulos/criaturas/",
-      "fabricación": "/ProyectoWiki/Fabricación/",
-      "mesa": "/ProyectoWiki/Fabricación/",
-      "alquimia": "/ProyectoWiki/Alquimia/",
-      "aventura": "/ProyectoWiki/Aventura/",
-      "comercio": "/ProyectoWiki/Comercio/",
-      "creativo": "/ProyectoWiki/creativo/",
-      "dimensionend": "/ProyectoWiki/DimensionEND/",
-      "end": "/ProyectoWiki/DimensionEND/",
-      "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
-      "nether": "/ProyectoWiki/DimensionNETHER/",
-      "encantamientos": "/ProyectoWiki/Encantamientos/",
-      "espectador": "/ProyectoWiki/Espectador/",
-      "extremo": "/ProyectoWiki/Extremo/",
-      "introduccion": "/ProyectoWiki/Introduccion/",
-      "jugabilidad": "/ProyectoWiki/Jugabilidad/",
-      "jugador": "/ProyectoWiki/Jugador/",
-      "mineria": "/ProyectoWiki/Minería/",
-      "pociones": "/ProyectoWiki/Pociones/",
-      "supervivencia": "/ProyectoWiki/Supervivencia/"
-    };
+<style>
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
 
-    if (pages[query]) {
-      window.location.href = pages[query];
+  .navbar-nav {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .search-input {
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+
+  .search-results {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 250px;
+    display: none;
+    z-index: 10;
+  }
+
+  .search-result-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .search-result-item:hover {
+    background-color: #f1f1f1;
+  }
+</style>
+
+<script>
+  const pages = {
+    "inicio": "/",
+    "acerca": "/acerca/",
+    "artículos": "/articulos/"
+  };
+
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+
+  searchInput.addEventListener('input', function () {
+    const query = searchInput.value.toLowerCase();
+    searchResults.innerHTML = '';
+    if (query.length > 0) {
+      const filteredPages = Object.keys(pages).filter(page => page.includes(query));
+
+      if (filteredPages.length > 0) {
+        searchResults.style.display = 'block';
+        filteredPages.forEach(page => {
+          const resultItem = document.createElement('div');
+          resultItem.classList.add('search-result-item');
+          resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
+          resultItem.addEventListener('click', () => {
+            window.location.href = pages[page];
+          });
+          searchResults.appendChild(resultItem);
+        });
+      } else {
+        searchResults.style.display = 'none';
+      }
     } else {
-      alert("No se encontraron resultados.");
+      searchResults.style.display = 'none';
     }
   });
 </script>
-
