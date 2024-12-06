@@ -17,30 +17,190 @@
   <h1>Wiki de <i>Minecraft</i></h1>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid justify-content-center">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-flex justify-content-center">
+        <li class="nav-item me-3">
+          <a class="nav-link fs-5 active" aria-current="page" href="/ProyectoWiki/">Inicio</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link fs-5" href="/ProyectoWiki/acerca/">Acerca</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link fs-5" href="/ProyectoWiki/articulos/">Artículos</a>
+        </li>
+      </ul>
+    </div>
 
-<div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav d-flex justify-content-center">
-    <li class="nav-item me-3">
-      <a class="nav-link fs-5 active" aria-current="page" href="/ProyectoWiki/">Inicio</a>
-    </li>
-    <li class="nav-item me-3">
-      <a class="nav-link fs-5" href="/ProyectoWiki/acerca">Acerca</a>
-    </li>
-    <li class="nav-item me-3">
-      <a class="nav-link fs-5" href="/ProyectoWiki/articulos">Artículos</a>
-    </li>
-  </ul>
-</div>
 
-    <form class="d-flex" id="searchForm">
-      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
-      <button class="btn btn-outline-success" type="submit" style="border-radius: 10px; padding-left: 20px; padding-right: 20px;">Buscar</button>
-    </form>
-  </div>
-</nav>
+  <style>
+    .navbar {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    .navbar-nav {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .nav-item {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .search-form {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      position: relative;
+    }
+
+    .search-input {
+      padding: 5px;
+      width: 250px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+    }
+
+    .search-results {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      background-color: white;
+      border: 1px solid #ccc;
+      width: 250px;
+      display: none;
+      z-index: 10;
+    }
+
+    .search-result-item {
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .search-result-item:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+
+<body>
+
+
+      <form class="search-form" id="searchForm">
+        <input class="search-input" type="search" placeholder="Buscar..." aria-label="Buscar" id="searchInput" autocomplete="off">
+        <div id="searchResults" class="search-results"></div>
+      </form>
+    </body></div>
+  </nav>
+
+  <script>
+    const pages = {
+      "inicio": "/ProyectoWiki/",
+      "acerca": "/ProyectoWiki/acerca/",
+      "artículos": "/ProyectoWiki/articulos/",
+      "ediciones": "/ProyectoWiki/Ediciones/",
+      "Ediciones": "/ProyectoWiki/Ediciones/",
+      "versiones": "/ProyectoWiki/Ediciones/",
+      "Versiones": "/ProyectoWiki/Ediciones/",
+      "versiones": "/ProyectoWiki/Ediciones/",
+      "biomas": "/ProyectoWiki/Biomas/",
+      "Biomas": "/ProyectoWiki/Biomas/",
+      "redstone": "/ProyectoWiki/Redstone/",
+      "redstone": "/ProyectoWiki/Redstone/",
+      "Mecanismo": "/ProyectoWiki/Redstone/",
+      "mecanismo": "/ProyectoWiki/Redstone/",
+      "criaturas": "/ProyectoWiki/articulos/criaturas/",
+      "Criaturas": "/ProyectoWiki/articulos/criaturas/",
+      "fabricación": "/ProyectoWiki/Fabricación/",
+      "fabricacion": "/ProyectoWiki/Fabricación/",
+      "Fabricación": "/ProyectoWiki/Fabricación/",
+      "Fabricacion": "/ProyectoWiki/Fabricación/",
+      "mesa": "/ProyectoWiki/Fabricación/",
+      "Mesa": "/ProyectoWiki/Fabricación/",
+      "crafteo": "/ProyectoWiki/Fabricación/",
+      "Crafteo": "/ProyectoWiki/Fabricación/",
+      "alquimia": "/ProyectoWiki/Alquimia/",
+      "Alquimia": "/ProyectoWiki/Alquimia/",
+      "aventura": "/ProyectoWiki/Aventura/",
+      "Aventura": "/ProyectoWiki/Aventura/",
+      "comercio": "/ProyectoWiki/Comercio/",
+      "Comercio": "/ProyectoWiki/Comercio/",
+      "creativo": "/ProyectoWiki/creativo/",
+      "Creativo": "/ProyectoWiki/creativo/",
+      "dimensionend": "/ProyectoWiki/DimensionEND/",
+      "Dimensionend": "/ProyectoWiki/DimensionEND/",
+      "end": "/ProyectoWiki/DimensionEND/",
+      "END": "/ProyectoWiki/DimensionEND/",
+      "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
+      "nether": "/ProyectoWiki/DimensionNETHER/",
+      "NETHER": "/ProyectoWiki/DimensionNETHER/",
+      "encantamientos": "/ProyectoWiki/Encantamientos/",
+      "Encantamientos": "/ProyectoWiki/Encantamientos/",
+      "espectador": "/ProyectoWiki/Espectador/",
+      "Espectador": "/ProyectoWiki/Espectador/",
+      "extremo": "/ProyectoWiki/Extremo/",
+      "Extremo": "/ProyectoWiki/Extremo/",
+      "Hardcore": "/ProyectoWiki/Extremo/",
+      "introduccion": "/ProyectoWiki/Introduccion/",
+      "jugabilidad": "/ProyectoWiki/Jugabilidad/",
+      "Jugabilidad": "/ProyectoWiki/Jugabilidad/",
+      "jugador": "/ProyectoWiki/Jugador/",
+      "Jugador": "/ProyectoWiki/Jugador/",
+      "mineria": "/ProyectoWiki/Minería/",
+      "Mineria": "/ProyectoWiki/Minería/",
+      "Minería": "/ProyectoWiki/Minería/",
+      "minería": "/ProyectoWiki/Minería/",
+      "pociones": "/ProyectoWiki/Pociones/",
+      "Pociones": "/ProyectoWiki/Pociones/",
+      "supervivencia": "/ProyectoWiki/Supervivencia/"
+      "Supervivencia": "/ProyectoWiki/Supervivencia/"
+    };
+
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+
+    searchInput.addEventListener('input', function () {
+      const query = searchInput.value.toLowerCase();
+      searchResults.innerHTML = '';
+      if (query.length > 0) {
+        const filteredPages = Object.keys(pages).filter(page => page.includes(query));
+
+        if (filteredPages.length > 0) {
+          searchResults.style.display = 'block';
+          filteredPages.forEach(page => {
+            const resultItem = document.createElement('div');
+            resultItem.classList.add('search-result-item');
+            resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
+            resultItem.addEventListener('click', () => {
+              window.location.href = pages[page];
+            });
+            searchResults.appendChild(resultItem);
+          });
+        } else {
+          searchResults.style.display = 'none';
+        }
+      } else {
+        searchResults.style.display = 'none';
+      }
+    });
+  </script>
+
+</header></body>
+</html>
 
   <img src="https://gaming-cdn.com/images/products/442/616x353/minecraft-java-bedrock-edition-java-bedrock-edition-pc-juego-cover.jpg?v=1716387513" alt="Logotipo de Minecraft">
-</header>
+
 
   <div class="container">
     <div class="content-wrapper">
@@ -257,43 +417,5 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"> </script>
 
-<script>
-  document.getElementById('searchForm').addEventListener('submit', function (event) {
-    event.preventDefault();
-    const query = document.getElementById('searchInput').value.toLowerCase();
-    const pages = {
-      "inicio": "/index.html",
-      "acerca": "/acerca/index.html",
-      "artículos": "/articulos/index.html",
-      "ediciones": "/ediciones/index.html",
-      "biomas": "/biomas/index.html",
-      "redstone": "/redstone/index.html",
-      "criaturas": "/articulos/criaturas.html",
-      "fabricación": "/fabricacion/index.html",
-      "alquimia": "/alquimia/index.html",
-      "aventura": "/aventura/index.html",
-      "comercio": "/comercio/index.html",
-      "creativo": "/creativo/index.html",
-      "dimensionend": "/dimensionend/index.html",
-      "dimensionnether": "/dimensionnether/index.html",
-      "encantamientos": "/encantamientos/index.html",
-      "espectador": "/espectador/index.html",
-      "extremo": "/extremo/index.html",
-      "introduccion": "/introduccion/index.html",
-      "jugabilidad": "/jugabilidad/index.html",
-      "jugador": "/jugador/index.html",
-      "mineria": "/mineria/index.html",
-      "pociones": "/pociones/index.html",
-      "supervivencia": "/supervivencia/index.html"
-    };
 
-    if (pages[query]) {
-      window.location.href = pages[query];
-    } else {
-      alert("No se encontraron resultados.");
-    }
-  });
-</script>
-
-</div></div></body>
-</html>
+</div></div>

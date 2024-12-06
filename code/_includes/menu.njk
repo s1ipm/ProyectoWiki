@@ -1,144 +1,183 @@
-<nav class="navbar">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid justify-content-center">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav d-flex justify-content-center">
         <li class="nav-item me-3">
-          <a class="nav-link" href="/">Inicio</a>
+          <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link" href="/acerca">Acerca</a>
+          <a class="nav-link fs-5" href="/acerca/">Acerca</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link" href="/articulos">Artículos</a>
+          <a class="nav-link fs-5" href="/articulos/">Artículos</a>
         </li>
       </ul>
     </div>
 
-    <form class="search-form" id="searchForm">
-      <input class="search-input" type="search" placeholder="Buscar..." aria-label="Buscar" id="searchInput" autocomplete="off">
-      <div id="searchResults" class="search-results"></div>
-    </form>
-  </div>
-</nav>
 
-<style>
-  .navbar {
-    background-color: #333;
-    padding: 10px 0;
-  }
+  <style>
+    .navbar {
+      background-color: #333;
+      padding: 10px 0;
+    }
 
-  .navbar-nav {
-    list-style-type: none;
-    padding-left: 0;
-  }
+    .navbar-nav {
+      list-style-type: none;
+      padding-left: 0;
+    }
 
-  .nav-item {
-    display: inline-block;
-    margin-right: 15px;
-  }
+    .nav-item {
+      display: inline-block;
+      margin-right: 15px;
+    }
 
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-  }
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
 
-  .nav-link:hover {
-    text-decoration: underline;
-  }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
 
-  .search-form {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    position: relative;
-  }
+    .search-form {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      position: relative;
+    }
 
-  .search-input {
-    padding: 5px;
-    width: 250px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-right: 10px;
-  }
+    .search-input {
+      padding: 5px;
+      width: 250px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+    }
 
-  .search-results {
-    position: absolute;
-    top: 35px;
-    left: 0;
-    background-color: white;
-    border: 1px solid #ccc;
-    width: 250px;
-    display: none;
-    z-index: 10;
-  }
+    .search-results {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      background-color: white;
+      border: 1px solid #ccc;
+      width: 250px;
+      display: none;
+      z-index: 10;
+    }
 
-  .search-result-item {
-    padding: 8px;
-    cursor: pointer;
-  }
+    .search-result-item {
+      padding: 8px;
+      cursor: pointer;
+    }
 
-  .search-result-item:hover {
-    background-color: #f1f1f1;
-  }
-</style>
+    .search-result-item:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
 
-<script>
-  const pages = {
-    "inicio": "/ProyectoWiki/",
-    "acerca": "/ProyectoWiki/acerca/",
-    "artículos": "/ProyectoWiki/articulos/",
-    "ediciones": "/ProyectoWiki/Ediciones/",
-    "versiones": "/ProyectoWiki/Ediciones/",
-    "biomas": "/ProyectoWiki/Biomas/",
-    "redstone": "/ProyectoWiki/Redstone/",
-    "criaturas": "/ProyectoWiki/articulos/criaturas/",
-    "fabricación": "/ProyectoWiki/Fabricación/",
-    "mesa": "/ProyectoWiki/Fabricación/",
-    "alquimia": "/ProyectoWiki/Alquimia/",
-    "aventura": "/ProyectoWiki/Aventura/",
-    "comercio": "/ProyectoWiki/Comercio/",
-    "creativo": "/ProyectoWiki/creativo/",
-    "dimensionend": "/ProyectoWiki/DimensionEND/",
-    "end": "/ProyectoWiki/DimensionEND/",
-    "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
-    "nether": "/ProyectoWiki/DimensionNETHER/",
-    "encantamientos": "/ProyectoWiki/Encantamientos/",
-    "espectador": "/ProyectoWiki/Espectador/",
-    "extremo": "/ProyectoWiki/Extremo/",
-    "introduccion": "/ProyectoWiki/Introduccion/",
-    "jugabilidad": "/ProyectoWiki/Jugabilidad/",
-    "jugador": "/ProyectoWiki/Jugador/",
-    "mineria": "/ProyectoWiki/Minería/",
-    "pociones": "/ProyectoWiki/Pociones/",
-    "supervivencia": "/ProyectoWiki/Supervivencia/"
-  };
 
-  const searchInput = document.getElementById('searchInput');
-  const searchResults = document.getElementById('searchResults');
+      <form class="search-form" id="searchForm">
+        <input class="search-input" type="search" placeholder="Buscar..." aria-label="Buscar" id="searchInput" autocomplete="off">
+        <div id="searchResults" class="search-results"></div>
+      </form>
+    </div>
+  </nav>
 
-  searchInput.addEventListener('input', function () {
-    const query = searchInput.value.toLowerCase();
-    searchResults.innerHTML = '';
-    if (query.length > 0) {
-      const filteredPages = Object.keys(pages).filter(page => page.includes(query));
+  <script>
+    const pages = {
+      "inicio": "/ProyectoWiki/",
+      "acerca": "/ProyectoWiki/acerca/",
+      "artículos": "/ProyectoWiki/articulos/",
+      "ediciones": "/ProyectoWiki/Ediciones/",
+      "Ediciones": "/ProyectoWiki/Ediciones/",
+      "versiones": "/ProyectoWiki/Ediciones/",
+      "Versiones": "/ProyectoWiki/Ediciones/",
+      "versiones": "/ProyectoWiki/Ediciones/",
+      "biomas": "/ProyectoWiki/Biomas/",
+      "Biomas": "/ProyectoWiki/Biomas/",
+      "redstone": "/ProyectoWiki/Redstone/",
+      "redstone": "/ProyectoWiki/Redstone/",
+      "Mecanismo": "/ProyectoWiki/Redstone/",
+      "mecanismo": "/ProyectoWiki/Redstone/",
+      "criaturas": "/ProyectoWiki/articulos/criaturas/",
+      "Criaturas": "/ProyectoWiki/articulos/criaturas/",
+      "fabricación": "/ProyectoWiki/Fabricación/",
+      "fabricacion": "/ProyectoWiki/Fabricación/",
+      "Fabricación": "/ProyectoWiki/Fabricación/",
+      "Fabricacion": "/ProyectoWiki/Fabricación/",
+      "mesa": "/ProyectoWiki/Fabricación/",
+      "Mesa": "/ProyectoWiki/Fabricación/",
+      "crafteo": "/ProyectoWiki/Fabricación/",
+      "Crafteo": "/ProyectoWiki/Fabricación/",
+      "alquimia": "/ProyectoWiki/Alquimia/",
+      "Alquimia": "/ProyectoWiki/Alquimia/",
+      "aventura": "/ProyectoWiki/Aventura/",
+      "Aventura": "/ProyectoWiki/Aventura/",
+      "comercio": "/ProyectoWiki/Comercio/",
+      "Comercio": "/ProyectoWiki/Comercio/",
+      "creativo": "/ProyectoWiki/creativo/",
+      "Creativo": "/ProyectoWiki/creativo/",
+      "dimensionend": "/ProyectoWiki/DimensionEND/",
+      "Dimensionend": "/ProyectoWiki/DimensionEND/",
+      "end": "/ProyectoWiki/DimensionEND/",
+      "END": "/ProyectoWiki/DimensionEND/",
+      "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
+      "nether": "/ProyectoWiki/DimensionNETHER/",
+      "NETHER": "/ProyectoWiki/DimensionNETHER/",
+      "encantamientos": "/ProyectoWiki/Encantamientos/",
+      "Encantamientos": "/ProyectoWiki/Encantamientos/",
+      "espectador": "/ProyectoWiki/Espectador/",
+      "Espectador": "/ProyectoWiki/Espectador/",
+      "extremo": "/ProyectoWiki/Extremo/",
+      "Extremo": "/ProyectoWiki/Extremo/",
+      "Hardcore": "/ProyectoWiki/Extremo/",
+      "introduccion": "/ProyectoWiki/Introduccion/",
+      "jugabilidad": "/ProyectoWiki/Jugabilidad/",
+      "Jugabilidad": "/ProyectoWiki/Jugabilidad/",
+      "jugador": "/ProyectoWiki/Jugador/",
+      "Jugador": "/ProyectoWiki/Jugador/",
+      "mineria": "/ProyectoWiki/Minería/",
+      "Mineria": "/ProyectoWiki/Minería/",
+      "Minería": "/ProyectoWiki/Minería/",
+      "minería": "/ProyectoWiki/Minería/",
+      "pociones": "/ProyectoWiki/Pociones/",
+      "Pociones": "/ProyectoWiki/Pociones/",
+      "supervivencia": "/ProyectoWiki/Supervivencia/"
+      "Supervivencia": "/ProyectoWiki/Supervivencia/"
+    };
 
-      if (filteredPages.length > 0) {
-        searchResults.style.display = 'block';
-        filteredPages.forEach(page => {
-          const resultItem = document.createElement('div');
-          resultItem.classList.add('search-result-item');
-          resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
-          resultItem.addEventListener('click', () => {
-            window.location.href = pages[page];
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+
+    searchInput.addEventListener('input', function () {
+      const query = searchInput.value.toLowerCase();
+      searchResults.innerHTML = '';
+      if (query.length > 0) {
+        const filteredPages = Object.keys(pages).filter(page => page.includes(query));
+
+        if (filteredPages.length > 0) {
+          searchResults.style.display = 'block';
+          filteredPages.forEach(page => {
+            const resultItem = document.createElement('div');
+            resultItem.classList.add('search-result-item');
+            resultItem.textContent = page.charAt(0).toUpperCase() + page.slice(1);
+            resultItem.addEventListener('click', () => {
+              window.location.href = pages[page];
+            });
+            searchResults.appendChild(resultItem);
           });
-          searchResults.appendChild(resultItem);
-        });
+        } else {
+          searchResults.style.display = 'none';
+        }
       } else {
         searchResults.style.display = 'none';
       }
-    } else {
-      searchResults.style.display = 'none';
-    }
-  });
-</script>
+    });
+  </script>
+
+</body>
+</html>
