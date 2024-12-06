@@ -5,10 +5,10 @@
   "main": ".eleventy.js",
   "scripts": {
     "install": "npm install @11ty/eleventy --save-dev",
-    "start": "npx @11ty/eleventy --serve --port=6969 --watch",
+    "start": "npx @11ty/eleventy --serve --port=6969",
     "clean": "rm -rf docs",
-    "deploy": "npx @11ty/eleventy --pathprefix=/ProyectoWiki/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/ProyectoWiki/"
+    "deploy": "npx @11ty/eleventy --pathprefix=/",
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/subdirectory/"
   },
   "keywords": [
     "11ty",
