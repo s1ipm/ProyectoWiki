@@ -1,19 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid justify-content-center">
-
-<div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav d-flex justify-content-center">
-    <li class="nav-item me-3">
-      <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
-    </li>
-    <li class="nav-item me-3">
-      <a class="nav-link fs-5" href="/acerca">Acerca</a>
-    </li>
-    <li class="nav-item me-3">
-      <a class="nav-link fs-5" href="/articulos">Artículos</a>
-    </li>
-  </ul>
-</div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-flex justify-content-center">
+        <li class="nav-item me-3">
+          <a class="nav-link fs-5 active" aria-current="page" href="/">Inicio</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link fs-5" href="/acerca">Acerca</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link fs-5" href="/articulos">Artículos</a>
+        </li>
+      </ul>
+    </div>
 
     <form class="d-flex" id="searchForm">
       <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="searchInput" style="border: none; border-radius: 10px; max-width: 300px;">
@@ -21,3 +20,46 @@
     </form>
   </div>
 </nav>
+
+<script>
+  document.getElementById('searchForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    const pages = {
+      "inicio": "/ProyectoWiki/",
+      "acerca": "/ProyectoWiki/acerca/",
+      "artículos": "/ProyectoWiki/articulos/",
+      "ediciones": "/ProyectoWiki/Ediciones/",
+      "versiones": "/ProyectoWiki/Ediciones/",
+      "biomas": "/ProyectoWiki/Biomas/",
+      "redstone": "/ProyectoWiki/Redstone/",
+      "criaturas": "/ProyectoWiki/articulos/criaturas/",
+      "fabricación": "/ProyectoWiki/Fabricación/",
+      "mesa": "/ProyectoWiki/Fabricación/",
+      "alquimia": "/ProyectoWiki/Alquimia/",
+      "aventura": "/ProyectoWiki/Aventura/",
+      "comercio": "/ProyectoWiki/Comercio/",
+      "creativo": "/ProyectoWiki/creativo/",
+      "dimensionend": "/ProyectoWiki/DimensionEND/",
+      "end": "/ProyectoWiki/DimensionEND/",
+      "dimensionnether": "/ProyectoWiki/DimensionNETHER/",
+      "nether": "/ProyectoWiki/DimensionNETHER/",
+      "encantamientos": "/ProyectoWiki/Encantamientos/",
+      "espectador": "/ProyectoWiki/Espectador/",
+      "extremo": "/ProyectoWiki/Extremo/",
+      "introduccion": "/ProyectoWiki/Introduccion/",
+      "jugabilidad": "/ProyectoWiki/Jugabilidad/",
+      "jugador": "/ProyectoWiki/Jugador/",
+      "mineria": "/ProyectoWiki/Minería/",
+      "pociones": "/ProyectoWiki/Pociones/",
+      "supervivencia": "/ProyectoWiki/Supervivencia/"
+    };
+
+    if (pages[query]) {
+      window.location.href = pages[query];
+    } else {
+      alert("No se encontraron resultados.");
+    }
+  });
+</script>
+
