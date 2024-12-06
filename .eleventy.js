@@ -7,7 +7,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
-  return {
+  return{
+  pathPrefix: "/ProyectoWiki",
     dir: {
       input: "code",
       output: "docs",
