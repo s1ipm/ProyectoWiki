@@ -30,6 +30,16 @@ El ***Modo Extremo*** mantiene la misma generación de mundo que el Modo Supervi
 6. **Restricciones adicionales:**
 En algunas versiones y servidores de ***Minecraft***, el ***Modo Extremo*** también puede incluir restricciones adicionales, como la imposibilidad de utilizar ciertos comandos o ajustes para facilitar la supervivencia. Sin embargo, estas restricciones varían según el servidor o el mundo en el que se juegue.
 
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://i.ytimg.com/vi/YVPplpjQsJg/maxresdefault.jpg" alt="Logo de Minecraft" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Article_Hardcore_Header_1170x500_.jpg" alt="Minecraft" class="img-fluid">
+    </div>
+  </div>
+</section>
+
 ## Funciones del Modo Extremo
 
 El Modo Dificultad:

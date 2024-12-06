@@ -76,6 +76,15 @@ El <em><strong>Modo Extremo</strong></em> mantiene la misma generación de mundo
 En algunas versiones y servidores de <em><strong>Minecraft</strong></em>, el <em><strong>Modo Extremo</strong></em> también puede incluir restricciones adicionales, como la imposibilidad de utilizar ciertos comandos o ajustes para facilitar la supervivencia. Sin embargo, estas restricciones varían según el servidor o el mundo en el que se juegue.</p>
 </li>
 </ol>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://i.ytimg.com/vi/YVPplpjQsJg/maxresdefault.jpg" alt="Logo de Minecraft" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Article_Hardcore_Header_1170x500_.jpg" alt="Minecraft" class="img-fluid">
+    </div>
+  </div>
+</section>
 <h2>Funciones del Modo Extremo</h2>
 <p>El Modo Dificultad:
 Extrema se activa al crear un mundo nuevo y al elegir la opción de <em><strong>Hardcore</strong></em>. En este modo, no es posible guardar la partida antes de la muerte, y no existe una forma de levantarse o volver a un punto anterior. Los jugadores continúan con la supervivencia habitual de gestionar su salud y el hambre, y protegerse frente a los mobs, pero a un modo de dificultad mucho más alto.</p>
@@ -251,26 +260,43 @@ En el <em><strong>Modo Extremo</strong></em>, los jugadores se enfocan en la sup
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
-  <script>
-    document.getElementById('searchForm').addEventListener('submit', function (event) {
-      event.preventDefault();
-      const query = document.getElementById('searchInput').value.toLowerCase();
-      const pages = {
-        "inicio": "/",
-        "acerca": "/acerca",
-        "artículos": "/articulos",
-        "minecraft": "/articulos/minecraft.html",
-        "biomas": "/articulos/biomas.html",
-        "redstone": "/articulos/redstone.html",
-        "criaturas": "/articulos/criaturas.html"
-      };
-      if (pages[query]) {
-        window.location.href = pages[query];
-      } else {
-        alert("No se encontraron resultados.");
-      }
-    });
-  </script>
+<script>
+  document.getElementById('searchForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    const pages = {
+      "inicio": "/index.html",
+      "acerca": "/acerca/index.html",
+      "artículos": "/articulos/index.html",
+      "ediciones": "/ediciones/index.html",
+      "biomas": "/biomas/index.html",
+      "redstone": "/redstone/index.html",
+      "criaturas": "/articulos/criaturas.html",
+      "fabricación": "/fabricacion/index.html",
+      "alquimia": "/alquimia/index.html",
+      "aventura": "/aventura/index.html",
+      "comercio": "/comercio/index.html",
+      "creativo": "/creativo/index.html",
+      "dimensionend": "/dimensionend/index.html",
+      "dimensionnether": "/dimensionnether/index.html",
+      "encantamientos": "/encantamientos/index.html",
+      "espectador": "/espectador/index.html",
+      "extremo": "/extremo/index.html",
+      "introduccion": "/introduccion/index.html",
+      "jugabilidad": "/jugabilidad/index.html",
+      "jugador": "/jugador/index.html",
+      "mineria": "/mineria/index.html",
+      "pociones": "/pociones/index.html",
+      "supervivencia": "/supervivencia/index.html"
+    };
+
+    if (pages[query]) {
+      window.location.href = pages[query];
+    } else {
+      alert("No se encontraron resultados.");
+    }
+  });
+</script>
 
 </body>
 </html>

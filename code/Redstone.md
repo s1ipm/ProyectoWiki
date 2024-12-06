@@ -12,60 +12,122 @@ date: "2024-12-07"
 
 ***La Redstone*** es un _mineral_ del juego que se comporta como un conductor eléctrico, que procesado, permite montar circuitos eléctricos que actúan sobre el ambiente del juego de diversas formas. Su funcionamiento se basa en principios que son parecidos a la electricidad y a la electrónica del mundo real, pero adaptados a la lógica del juego. ***La Redstone*** funciona en el juego de una manera similar a los circuitos eléctricos reales. Se utiliza para transmitir señales de energía de un bloque a otro, lo que puede activar ciertos mecanismos en el juego. Estas señales de ***redstone*** pueden ser de diferentes intensidades y tienen un rango limitado (generalmente 15 bloques), aunque se pueden amplificar con ciertos mecanismos.
 
-## Componentes Básicos
+<img src="https://i.blogs.es/67bf4a/redstone-minecraft-1/450_1000.webp" alt="Isla Central">
 
-***La redstone*** no es solo el _polvo_ que se coloca sobre bloques, existen varios componentes que se utilizan para generar circuitos más complejos, como por ejemplo:
+<div style="text-align: center;">
+  <table style="margin: 0 auto; text-align: left;">
+    <thead>
+      <tr>
+        <th><strong>Componente</strong></th>
+        <th><strong>Descripción</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e1/Redstone_Dust_JE2_BE2.png" alt="Polvo de Redstone" style="width: 100px; height: auto;">
+          <p><strong>Polvo de Redstone</strong></p>
+        </td>
+        <td>Es el elemento más simple o básico que se utiliza para enlazar bloques y transmitir señales de energía. Se puede colocar directamente sobre el suelo o superficies planas, ocupando bloques como piedra o madera. La señal puede extenderse hasta 15 bloques de distancia.</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/75/Redstone_Torch_JE4.png" alt="Linterna de Redstone" style="width: 100px; height: auto;">
+          <p><strong>Linterna de Redstone</strong></p>
+        </td>
+        <td>Fuente de energía que emite una señal constante. Se puede encender o apagar utilizando señales de redstone, permitiendo su uso en sistemas avanzados.</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/26/Block_of_Redstone_JE2_BE2.png" alt="Bloques de Redstone" style="width: 100px; height: auto;">
+          <p><strong>Bloques de Redstone</strong></p>
+        </td>
+        <td>Bloques que emiten señales de redstone sin necesidad de cables. Al ser colocados, emiten señales en todas direcciones.</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://i.ytimg.com/vi/NmIBpIk-7tY/maxresdefault.jpg" alt="Palancas y Botones" style="width: 100px; height: auto;">
+          <p><strong>Palancas y Botones</strong></p>
+        </td>
+        <td>Interruptores que se usan para encender o apagar señales de redstone. La palanca emite una señal constante, mientras que el botón enciende la señal mientras se presiona.</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://www.minecrafteo.com/wp-content/uploads/2016/07/placas-presion-minecraft.jpg" alt="Placas de presión" style="width: 100px; height: auto;">
+          <p><strong>Placas de presión</strong></p>
+        </td>
+        <td>Botones activados por presión, útiles para crear puertas o trampas automáticas al ser activadas por un jugador o entidad.</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://minecraft.wiki/images/Redstone_Repeater_%28S%29_JE5_BE2.png?14213" alt="Repetidores de Redstone" style="width: 100px; height: auto;">
+          <p><strong>Repetidores de Redstone</strong></p>
+        </td>
+        <td>Amplían la señal de redstone, permitiendo que la señal sea transmitida más allá de los 15 bloques. También permiten retardar señales para activar mecanismos en el tiempo deseado.</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://minecraft.wiki/images/Redstone_Comparator_%28S%29_JE5.png?cb695" alt="Comparadores de Redstone" style="width: 100px; height: auto;">
+          <p><strong>Comparadores de Redstone</strong></p>
+        </td>
+        <td>Componentes complejos que miden señales de redstone de intensidad variable. Sirven para crear lógica básica, como compuertas lógicas o memoria de circuitos. También pueden extraer señales de bloques como cofres.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-1. ***Polvo de Redstone:***
-- Es el elemento más simple o básico que se utiliza para enlazar bloques y para transmitir señales de energía.
-- Se puede colocar directamente sobre el suelo o sobre superficies planas, ocupando un bloque de piedra o madera, por ejemplo.
-La señal de ***redstone*** puede extenderse hasta 15 bloques de distancia.
+<hr>
 
-2. ***Linterna de Redstone:***
-- Se trata de una fuente de energía; al igual que una batería, emite una señal constante y se puede utilizar para alimentar otros mecanismos.
-- Adicionalmente, se puede encender o apagar utilizando señales de ***redstone***, lo cual puede hacer que la linterna de ***redstone*** se utilice en los sistemas más avanzados.
-
-3. ***Bloques de Redstone:***
-- Bloques que pueden alimentarse y conducir la señal sin necesidad de utilizar cables de ***redstone***.
-- Un bloque de ***redstone*** al ser colocado emite una señal de ***redstone*** en todas direcciones.
-
-4. ***Palancas y Botones:***
-- Interruptores que se utilizan para encender o apagar una señal de ***redstone***, donde la palanca emite una señal de encendido constante mientras que el botón enciende la señal durante el tiempo que la persona lo estuviese presionando.
-
-5. ***Placas de presión:***
-- Las placas de presión son botones que se activan al recibir presión (cuando una entidad o jugador pasa por encima de la placa) y son útiles para crear puertas o trampas automáticas.
-
-6. ***Repetidores de Redstone:***
-- Son los que amplían la señal de ***redstone***, permitiendo que la señal sea transmitida más allá de los 15 bloques estándar.
-- Pueden utilizarse para retardar las señales más allá de simplemente multiplicar (dotar de retardos) la activación de mecanismos.
-
-7. ***Comparadores de Redstone:***
-- Son más complejos que un repetidor. Permiten medir señales de ***redstone*** de intensidad variable y servir para crear lógica básica como compuertas lógicas o la memoria de circuitos.
-- Los comparadores también pueden extraer señales de bloques, como cofres, barriles, que permitan crear mecanismos en función del contenido de bloques.
-
-## Tipos de mecanismos
-
-Los mecanismos de ***redstone*** ofrecen a los ***jugadores*** la posibilidad de interactuar con ***Minecraft*** en un nivel mayor. Los mecanismos básicos y cómo se utilizan: 
-
-1. ***Puertas Automáticas:***
-- Utilizan placas de presión o detectores de luz para impulsar puertas automáticamente cuando se acerca un jugador o entidad.
-- Puertas de madera o de hierro puede estar conectada con un cable de ***redstone*** para abrirse con una señal por sendos pistones a ambos lados.
-
-2. ***Pistones:***
-- Son mecanismos que empujan bloques a otra dirección con la activación de un cable de ***redstone***. 
-- Pistones pegajosos de un solo empuje permiten también sacar bloques, de la misma manera que es posible construir puertas secretas, trampas y puentes móviles. 
-
-3. ***Trampas Automáticas:***
-- Usando ***Redstone***, es posible crear trampas que se activan de manera automática cuando un jugador o mob pasa por un área específica. Por ejemplo, una trampa de flechas disparadas desde dispensadores o un pozo de lava activado por placas de presión.
-
-4. ***Elevadores:***
-- Los elevadores de pistones son un sistema que invoca avanzado de pistones y repetidores de ***redstone*** que circula hasta la parte baja como cargador de ascensor. 
-
-5. ***Sistemas de Señalar Alarmas:***
-- Puedes usar linternas de ***redstone*** o campanas conectadas a ***sistemas de redstone*** para emitir señales visuales o sonoras de alerta ante eventos específicos, como el ingreso de un enemigo.
-
-6. ***Elevadores:*** 
-- Usando pistones y ***redstone***, ventilas de bloques móviles construye estructuras, puentes ocultaros o escaleras mecánicas.
+  <table style="margin: 0 auto; text-align: left; border-collapse: collapse; width: 80%; background-color: #25473e; border: 1px solid #ccc">
+    <thead>
+      <tr>
+        <th style="border: 1px solid #ccc; padding: 8px; background-color: #a5d6a7; color: #000;"><strong>Mecanismo</strong></th>
+        <th style="border: 1px solid #ccc; padding: 8px; background-color: #a5d6a7; color: #000;"><strong>Descripción</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px;"><strong>Puertas Automáticas</strong></td>
+        <td style="border: 1px solid #ccc; padding: 8px;">
+          Utilizan placas de presión o detectores de luz para abrirse automáticamente al acercarse un jugador o entidad. 
+          Las puertas (de madera o hierro) pueden conectarse con cables de <em>redstone</em> y pistones para crear puertas más complejas.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px;"><strong>Pistones</strong></td>
+        <td style="border: 1px solid #ccc; padding: 8px;">
+          Empujan bloques en una dirección al activarse con <em>redstone</em>. 
+          Los pistones pegajosos pueden retirar bloques, ideales para puertas secretas, trampas y puentes móviles.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px;"><strong>Trampas Automáticas</strong></td>
+        <td style="border: 1px solid #ccc; padding: 8px;">
+          Usando <em>redstone</em>, se pueden crear trampas automáticas como flechas disparadas desde dispensadores o pozos de lava activados por placas de presión.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px;"><strong>Elevadores</strong></td>
+        <td style="border: 1px solid #ccc; padding: 8px;">
+          Sistemas avanzados de pistones y repetidores de <em>redstone</em> que permiten mover al jugador o bloques verticalmente. 
+          Son útiles para construir ascensores o plataformas móviles.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px;"><strong>Sistemas de Alarmas</strong></td>
+        <td style="border: 1px solid #ccc; padding: 8px;">
+          Utilizan linternas de <em>redstone</em> o campanas para emitir señales visuales o sonoras en respuesta a eventos específicos, 
+          como la entrada de un enemigo en un área.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px;"><strong>Estructuras Móviles</strong></td>
+        <td style="border: 1px solid #ccc; padding: 8px;">
+          Mediante pistones y <em>redstone</em>, se pueden crear puentes ocultos, escaleras mecánicas o plataformas móviles para diversas necesidades.
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
 ---
 

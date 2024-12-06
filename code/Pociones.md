@@ -11,43 +11,169 @@ date: "2024-12-07"
 Las pociones en Minecraf son brebajes mágicos que le otorgan efectos temporales al jugador o a otras entidades. Los efectos pueden ser positivos (como curación o aumento de velocidad) o negativos (como veneno o debilidad) y son diferentes en función de la poción en cuestión. Las pociones se elaboran con la alquimia usando ingredientes concretos y éstas son modificables o pueden mejorar de diferentes maneras.
 Las pociones en Minecraf son una herramienta estratégica importante, tanto para mejorar las habilidades del jugador como para perjudicar a los enemigos y tienen gran diversidad de usos dentro del juego. 
 
-### Tipo de pociones, sus efectos y durabildiad
+<img src="https://preview.redd.it/new-look-on-potions-v0-x4niku7a7fla1.png?width=680&format=png&auto=webp&s=5990108d02c1dfd27df491142d9480c80499e623" alt="Pociones">
 
-| **Poción**                      | **Efecto**                                        | **Duración**                      |
-|----------------------------------|--------------------------------------------------|-----------------------------------|
-| **Poción de regeneración**       | Restaura salud a lo largo del tiempo.            | 0:50                             |
-| **Poción de regeneración II**    | Restaura salud a lo largo del tiempo.            | 0:22                             |
-| **Poción de velocidad**          | Aumenta la velocidad de movimiento.              | 3:00                             |
-| **Poción de rapidez**            | Aumenta la velocidad de movimiento.              | 8:00                             |
-| **Poción de rapidez II**         | Aumenta la velocidad de movimiento.              | 1:30                             |
-| **Poción de cuerpo ignífugo**    | Otorga inmunidad al daño por fuego y lava.       | 3:00                             |
-| **Poción de cuerpo ignífugo extendida** | Otorga inmunidad al daño por fuego y lava.| 8:00                             |
-| **Poción de curación**           | Restaura salud instantáneamente.                 | Instantáneo                      |
-| **Poción de visión nocturna**    | Permite ver en la oscuridad como si fuera de día.| 3:00                             |
-| **Poción de visión nocturna extendida** | Permite ver en la oscuridad como si fuera de día.| 8:00                      |
-| **Poción de fuerza**             | Aumenta el daño cuerpo a cuerpo.                | 3:00                              |
-| **Poción de fuerza extendida**   | Aumenta el daño cuerpo a cuerpo.                | 8:00                              |
-| **Poción de salto**              | Permite saltar más alto y reduce el daño por caída. | 3:00                          |
-| **Poción de salto extendida**    | Permite saltar más alto y reduce el daño por caída. | 8:00                          |
-| **Poción de salto II**           | Permite saltar más alto y reduce el daño por caída. | 1:30                          |
-| **Poción de invisibilidad**      | Hace invisible al jugador.                      | 3:00                              |
-| **Poción de invisibilidad extendida** | Hace invisible al jugador.                 | 8:00                              |
+<div style="text-align: center;">
+  <table style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th><strong>Poción</strong></th>
+        <th><strong>Efecto</strong></th>
+        <th><strong>Duración</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Poción de regeneración</strong></td>
+        <td>Restaura salud a lo largo del tiempo.</td>
+        <td>0:50</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de regeneración II</strong></td>
+        <td>Restaura salud a lo largo del tiempo.</td>
+        <td>0:22</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de velocidad</strong></td>
+        <td>Aumenta la velocidad de movimiento.</td>
+        <td>3:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de rapidez</strong></td>
+        <td>Aumenta la velocidad de movimiento.</td>
+        <td>8:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de rapidez II</strong></td>
+        <td>Aumenta la velocidad de movimiento.</td>
+        <td>1:30</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de cuerpo ignífugo</strong></td>
+        <td>Otorga inmunidad al daño por fuego y lava.</td>
+        <td>3:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de cuerpo ignífugo extendida</strong></td>
+        <td>Otorga inmunidad al daño por fuego y lava.</td>
+        <td>8:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de curación</strong></td>
+        <td>Restaura salud instantáneamente.</td>
+        <td>Instantáneo</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de visión nocturna</strong></td>
+        <td>Permite ver en la oscuridad como si fuera de día.</td>
+        <td>3:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de visión nocturna extendida</strong></td>
+        <td>Permite ver en la oscuridad como si fuera de día.</td>
+        <td>8:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de fuerza</strong></td>
+        <td>Aumenta el daño cuerpo a cuerpo.</td>
+        <td>3:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de fuerza extendida</strong></td>
+        <td>Aumenta el daño cuerpo a cuerpo.</td>
+        <td>8:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de salto</strong></td>
+        <td>Permite saltar más alto y reduce el daño por caída.</td>
+        <td>3:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de salto extendida</strong></td>
+        <td>Permite saltar más alto y reduce el daño por caída.</td>
+        <td>8:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de salto II</strong></td>
+        <td>Permite saltar más alto y reduce el daño por caída.</td>
+        <td>1:30</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de invisibilidad</strong></td>
+        <td>Hace invisible al jugador.</td>
+        <td>3:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de invisibilidad extendida</strong></td>
+        <td>Hace invisible al jugador.</td>
+        <td>8:00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
+<hr>
 
-#### Pociones de Efecto Negativo
+<div style="text-align: center;">
+  <table style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th><strong>Poción</strong></th>
+        <th><strong>Efecto</strong></th>
+        <th><strong>Duración</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Poción de veneno</strong></td>
+        <td>Causa daño a lo largo del tiempo, pero no reduce la salud por debajo de 1.</td>
+        <td>0:45</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de veneno extendida</strong></td>
+        <td>Causa daño a lo largo del tiempo, pero no reduce la salud por debajo de 1.</td>
+        <td>1:30</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de veneno II</strong></td>
+        <td>Causa daño a lo largo del tiempo, pero no reduce la salud por debajo de 1.</td>
+        <td>0:21.6</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de debilidad</strong></td>
+        <td>Reduce el daño físico.</td>
+        <td>1:30</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de debilidad extendida</strong></td>
+        <td>Reduce el daño físico.</td>
+        <td>4:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de lentitud</strong></td>
+        <td>Ralentiza al jugador o a las criaturas.</td>
+        <td>1:30</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de lentitud extendida</strong></td>
+        <td>Ralentiza al jugador o a las criaturas.</td>
+        <td>4:00</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de daño</strong></td>
+        <td>Causa daño instantáneo al jugador o entidad.</td>
+        <td>Instantáneo</td>
+      </tr>
+      <tr>
+        <td><strong>Poción de daño II</strong></td>
+        <td>Causa daño inmediato, el doble que la poción base.</td>
+        <td>Instantáneo</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-| **Poción**                        | **Efecto**                                            | **Duración**                     |
-|-----------------------------------|-------------------------------------------------------|-----------------------------------|
-| **Poción de veneno**              | Causa daño a lo largo del tiempo, pero no reduce la salud por debajo de 1. | 0:45         |
-| **Poción de veneno extendida**    | Causa daño a lo largo del tiempo, pero no reduce la salud por debajo de 1. | 1:30         |
-| **Poción de veneno II**           | Causa daño a lo largo del tiempo, pero no reduce la salud por debajo de 1. | 0:21.6       |
-| **Poción de debilidad**           | Reduce el daño físico.                                | 1:30                              |
-| **Poción de debilidad extendida** | Reduce el daño físico.                                | 4:00                              |
-| **Poción de lentitud**            | Ralentiza al jugador o a las criaturas.               | 1:30                              |
-| **Poción de lentitud extendida**  | Ralentiza al jugador o a las criaturas.               | 4:00                              |
-| **Poción de daño**                | Causa daño instantáneo al jugador o entidad.          | Instantáneo                       |
-| **Poción de daño II**             | Causa daño inmediato, el doble que la poción base.    | Instantáneo                       |
-
+<hr>
 
 ### Obtención de Pociones
 
@@ -87,3 +213,5 @@ _Efectos:_ Algunas pociones, como las de daño o de reparación, pueden servirse
 _Uso principal:_ Tiene como uso principal las pociones que afectan a una entidad de manera continua como en las flechas de efectos de pociones.
 _Obtención:_ Se crea mediante un envase arrojadizo y una gotita de experiencia.
 Estos frascos son fundamentales para manipular y utilizar las pociones de manera efectiva, permitiendo desde la curación instantánea hasta el daño a largo plazo o efectos de área. 
+
+<hr>

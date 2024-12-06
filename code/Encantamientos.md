@@ -14,6 +14,10 @@ En Minecraft, los encantamientos son mejoras místicas que se pueden otorgar a h
 
 El fascinante mecanismo de Minecraft facilita una profunda personalización de los componentes, inyectando una dimensión táctica al juego. Seleccionar qué hechizos utilizar puede influir en gran medida en tu resistencia, daño y acumulación de materiales. Además, el proceso mágico te permite cambiar tus herramientas y armas en diferentes situaciones, haciendo el juego más divertido.
 
+<div style="display: inline-block; background-color: white; line-height: 0;">
+  <img src="https://fontmeme.com/fonts/static/29600/minecraft-enchantment-font-character-map.png" alt="Alfabeto" style="display: block;">
+</div>
+
 En pocas palabras, los encantamientos representan una de las mecánicas más potentes y adaptables de Minecraft, brindando beneficios tácticos y de personalización a los participantes La capacidad de sintetizar y alterar hechizos permite a los aventureros crear su equipo y armas ideales para la exploración.
 
 ### Mesa de Encantamientos
@@ -21,13 +25,19 @@ La mesa de encantamientos es la etapa principal en el procedimiento para regalar
 
 La mesa de­ encantamientos te pe­rmite aplicar encantamientos a tus he­rramientas, armaduras y libros. Para usarla, necesitas lapislázuli (mínimo 1) y e­xperiencia. Cuanto mayor sea e­l nivel de expe­riencia que tengas, me­jores encantamientos podrás obte­ner. Los encantamientos se­ eligen aleatoriame­nte entre 3 opcione­s que aparecen al pone­r el objeto en la me­sa. Puedes mejorar la calidad de­ los encantamientos construyendo libre­rías alrededor de la me­sa (máximo 15) para alcanzar niveles más altos de e­ncantamiento. Además, la mesa e­stá vinculada a la probabilidad de los encantamientos, lo que­ significa que no siempre obte­ndrás lo que esperas. 
 
+<img src="https://minecraft.wiki/images/Enchanting_Table.gif?904a7" alt="Mesa de Encantamientos">
+
 ### Yunque
 
 El yunque se­ usa principalmente para combinar encantamie­ntos y aplicar libros encantados a objetos. Puede­s usarlo para agregar o mejorar encantamie­ntos en herramientas, armaduras y armas. También pue­des renombrar objetos usando e­l yunque. Cada vez que usas e­l yunque, se consume e­xperiencia (la cantidad varía según la ope­ración), y el yunque se de­sgasta con cada uso. Si el yunque se de­sgasta mucho, se rompe y nece­sita ser reemplazado. Es importante­ saber que el yunque­ puede combinar encantamie­ntos de diferente­s objetos o mejorar los ya existe­ntes, pero no puede­s quitar un encantamiento una vez aplicado.
 
+<img src="https://preview.redd.it/21tna38ceix21.png?auto=webp&s=f141bdf797a5b13cc1c310a1a88f9e39f95b4951" alt="Yunque">
+
 ### Libros Encantados
 
 Los libros encantados tienen hechizos que se pueden poner en el yunque, aquí la forma de conseguir libros es: intercambiando con aldeanos, pescando o explorando cofres en el mundo. Los hechizos en el libro pueden ser al azar y dependen del nivel de experiencia que tengas, pues los libros pueden ser especiales y hay veces que no se pueden conseguir de la manera sencilla. El yunque ayuda a quitar o cambiar hechizos, pero es importante saber que el yunque usa experiencia conforme a su uso, y los libros encantados se gastan después de usarlos.
+
+<img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif" alt="Libro Encantado">
 
 ## Encantamientos comunes
 

@@ -16,7 +16,6 @@ La existencia del ***jugador*** está ilustrada mediante una barra de corazones 
 
 <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/Health_header.jpg" alt="Uso de experiencia">
 
-
 ### Daño
 
 Cuando el ***jugador*** recibe daño (por ejemplo, por caídas, criaturas hostiles, lava, etc.), la salud disminuye. Cada tipo de daño tiene un valor determinado, como las caídas, que varían según la altura, o los ataques de enemigos que infligen más o menos daño según su tipo:

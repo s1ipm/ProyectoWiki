@@ -48,7 +48,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
 <div class="creatures-section">
 
   <div class="creature">
-    <img src="https://i.imgur.com/sHVyz5N.png" alt="Ajolote" class="creature-img">
+    <img src="https://c.tenor.com/wZbhPj65doUAAAAd/tenor.gif" alt="Ajolote" class="creature-img">
     <div class="creature-info">
       <h3>Ajolote</h3>
       <p><strong>Tipo:</strong> Pasiva</p>
@@ -58,7 +58,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/FS7LQNO.png" alt="Aldeano" class="creature-img">
+    <img src="https://media.tenor.com/t9Tmquei7L4AAAAi/villager-minecraft.gif" alt="Aldeano" class="creature-img">
     <div class="creature-info">
       <h3>Aldeano</h3>
       <p><strong>Tipo:</strong> Pasiva</p>
@@ -68,7 +68,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Caballo" class="creature-img">
+    <img src="https://www.gtxgaming.co.uk/wp-content/uploads/2023/06/Minecraft-Horses-Guide.webp" alt="Caballo" class="creature-img">
     <div class="creature-info">
       <h3>Caballo</h3>
       <p><strong>Tipo:</strong> Pasiva</p>
@@ -78,7 +78,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div> 
   
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Vaca" class="creature-img">
+    <img src="https://media.tenor.com/_0mcxfIWvnYAAAAi/cow-minecraft.gif" alt="Vaca" class="creature-img">
     <div class="creature-info">
       <h3>Vaca</h3>
       <p><strong>Tipo:</strong> Pasiva</p>
@@ -88,17 +88,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div> 
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Llama" class="creature-img">
-    <div class="creature-info">
-      <h3>Llama</h3>
-      <p><strong>Tipo:</strong> Pasiva</p>
-      <p><strong>Ubicación:</strong> Llanuras, biomas de pradera</p>
-      <p><strong>Comportamiento:</strong> Se puede domesticar y usar para cargar cofres.</p>
-    </div>
-  </div> 
-
-  <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Gato" class="creature-img">
+    <img src="https://media.tenor.com/2hgvlFi-p5oAAAAi/the-cats-are-cute-too.gif" alt="Gato" class="creature-img">
     <div class="creature-info">
       <h3>Gato</h3>
       <p><strong>Tipo:</strong> Pasiva</p>
@@ -108,17 +98,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div> 
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Pez Tropical" class="creature-img">
-    <div class="creature-info">
-      <h3>Pez Tropical</h3>
-      <p><strong>Tipo:</strong> Pasiva</p>
-      <p><strong>Ubicación:</strong> Océanos, arrecifes de coral</p>
-      <p><strong>Comportamiento:</strong> Nada tranquilamente. Puede ser capturado con una caña de pescar.</p>
-    </div>
-  </div> 
-
-  <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Cabra" class="creature-img">
+    <img src="https://media1.tenor.com/m/CswHAl4j6nkAAAAd/wow.gif" alt="Cabra" class="creature-img">
     <div class="creature-info">
       <h3>Cabra</h3>
       <p><strong>Tipo:</strong> Neutral</p>
@@ -128,7 +108,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Delfín" class="creature-img">
+    <img src="https://media.tenor.com/lo-y5KV2xB8AAAAi/minecraft-dolphin.gif" alt="Delfín" class="creature-img">
     <div class="creature-info">
       <h3>Delfín</h3>
       <p><strong>Tipo:</strong> Neutral</p>
@@ -138,7 +118,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Enderman" class="creature-img">
+    <img src="https://media.tenor.com/1TaM3gbKCHgAAAAi/ender.gif" alt="Enderman" class="creature-img">
     <div class="creature-info">
       <h3>Enderman</h3>
       <p><strong>Tipo:</strong> Neutral</p>
@@ -148,7 +128,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Lobo" class="creature-img">
+    <img src="https://media.tenor.com/k-5EBmqO6ycAAAAi/minecraft-wolf.gif" alt="Lobo" class="creature-img">
     <div class="creature-info">
       <h3>Lobo</h3>
       <p><strong>Tipo:</strong> Neutral</p>
@@ -158,7 +138,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Piglin" class="creature-img">
+    <img src="https://minecraft.wiki/images/Piglin_being_zombified.gif?7a733&format=original" alt="Piglin" class="creature-img">
     <div class="creature-info">
       <h3>Piglin</h3>
         <p><strong>Tipo:</strong> Hostil</p>
@@ -168,7 +148,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Creeper" class="creature-img">
+    <img src="https://media.tenor.com/20FDEytas6QAAAAj/creeper-spin.gif" alt="Creeper" class="creature-img">
     <div class="creature-info">
       <h3>Creeper</h3>
       <p><strong>Tipo:</strong> Hostil</p>
@@ -178,9 +158,9 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Zombi" class="creature-img">
+    <img src="https://media.tenor.com/FYQhYsuZlukAAAAj/zombie-minecraft.gif" alt="Zombie" class="creature-img">
     <div class="creature-info">
-      <h3>Zombi</h3>
+      <h3>Zombie</h3>
       <p><strong>Tipo:</strong> Hostil</p>
       <p><strong>Ubicación:</strong> Biomas variados</p>
       <p><strong>Comportamiento:</strong> Persigue y ataca al jugador.</p>
@@ -188,7 +168,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Esqueleto" class="creature-img">
+    <img src="https://static.wikia.nocookie.net/minecraftpocketedition/images/7/72/Skeleton.gif" alt="Esqueleto" class="creature-img">
     <div class="creature-info">
       <h3>Esqueleto</h3>
       <p><strong>Tipo:</strong> Hostil</p>
@@ -198,7 +178,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Blaze" class="creature-img">
+    <img src="https://media.tenor.com/EUolDajZNHgAAAAi/blaze.gif" alt="Blaze" class="creature-img">
     <div class="creature-info">
       <h3>Blaze</h3>
       <p><strong>Tipo:</strong> Hostil</p>
@@ -208,7 +188,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Ghast" class="creature-img">
+    <img src="https://media.tenor.com/uDJ-h4XBETkAAAAi/minecraft-ghast.gif" alt="Ghast" class="creature-img">
     <div class="creature-info">
       <h3>Ghast</h3>
       <p><strong>Tipo:</strong> Hostil</p>
@@ -218,7 +198,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Warden" class="creature-img">
+    <img src="https://media.tenor.com/HwagQDB1Ux0AAAAi/warden-minecraft.gif" alt="Warden" class="creature-img">
     <div class="creature-info">
       <h3>Warden</h3>
       <p><strong>Tipo:</strong> Hostil</p>
@@ -228,7 +208,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Ender Dragón" class="creature-img">
+    <img src="https://media.tenor.com/xSwM0lAKOvMAAAAi/ender-dragon-end-dragon.gif" alt="Ender Dragón" class="creature-img">
     <div class="creature-info">
       <h3>Ender Dragón</h3>
       <p><strong>Tipo:</strong> Jefe</p>
@@ -238,7 +218,7 @@ Estas criaturas a menudo se mueven en el aire y pueden ser difíciles de atacar 
   </div>
 
   <div class="creature">
-    <img src="https://i.imgur.com/WxT0D1p.png" alt="Wither" class="creature-img">
+    <img src="https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/a/aa/Wither.png" alt="Wither" class="creature-img">
     <div class="creature-info">
       <h3>Wither</h3>
       <p><strong>Tipo:</strong> Jefe</p>
